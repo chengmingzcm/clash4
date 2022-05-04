@@ -5,223 +5,267 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳CN-🇭🇰HK_492, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇲🇾MY_491, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_3057, server: 167.88.61.70, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3802, server: usd.scsevers.cf, port: 443, type: trojan, password: sharecentretest, sni: usd.scsevers.cf, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3808, server: los2-cn2.v2ce.com, port: 443, type: trojan, password: 1Qfea1eL3zCALPJm, sni: los2-cn2.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: JP_1085, server: 210.140.75.152, port: 80, type: vmess, uuid: f613af75-f9eb-3d84-9357-7c3b00d950a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /live/cctv6_2/index.m3u8, ws-headers: {Host: 210.140.75.152}, udp: true}
-  - {name: US_2592, server: 167.88.63.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Relay_🇭🇰HK-🇭🇰HK_912, server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AY920UMR, ws-headers: {Host: us1.lolvps.xyz}, udp: true}
-  - {name: US_3239, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2696, server: 167.88.63.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_3184, server: 167.88.61.70, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_2813, server: 167.88.63.108, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Relay_🇺🇸US-🇷🇺RU_3777, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3786, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US_3252, server: 167.88.62.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3788, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, sni: fhcamd1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: NL_1333, server: 85.208.108.106, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: KR_1091, server: 140.238.6.99, port: 443, type: vmess, uuid: f613af75-f9eb-3d84-9357-7c3b00d950a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /live/cctv6_2/index.m3u8, ws-headers: {Host: 140.238.6.99}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3757, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: lu1.gogogoo.cyou}, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_3749, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /happy, ws-headers: {Host: v2ray.788644.xyz}, udp: true}
-  - {name: Relay_🇺🇸US-🇷🇺RU_3740, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
-  - {name: US_2110, server: 167.88.61.70, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_2114, server: 167.88.61.70, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_1987, server: 167.88.61.70, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2278, server: 167.88.61.70, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_3399, server: 167.88.61.70, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_3193, server: 167.88.61.70, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_3539, server: 167.88.61.70, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_2248, server: 167.88.61.70, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_3670, server: 167.88.61.70, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_3260, server: 167.88.61.70, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_2373, server: 167.88.61.70, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_3470, server: 167.88.61.70, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_3180, server: 167.88.61.70, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_3045, server: 167.88.61.70, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_3580, server: 167.88.61.70, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_2075, server: 38.75.136.116, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_3492, server: 167.88.61.70, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_3530, server: 167.88.61.70, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_3061, server: 167.88.61.70, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_4160, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_3973, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_2158, server: 167.88.62.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: FR_739, server: 145.239.1.100, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Relay_🇺🇦UA-🇺🇦UA_1772, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: ZZ_4608, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_2112, server: 167.88.62.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_3027, server: 167.88.62.68, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_3427, server: 167.88.62.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_3780, server: 65.49.214.185, port: 30658, type: vmess, uuid: 351c64c1-2f7d-4900-a2d2-8f09a6501603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3837, server: 1chuan.top, port: 443, type: vmess, uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /evo, ws-headers: {Host: 1chuan.top}, udp: true}
+  - {name: GB_896, server: 152.89.210.84, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: DE_611, server: 5.183.179.145, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3864, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, sni: fhcamd1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: DE_606, server: 5.183.179.166, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: DE_636, server: 5.183.179.166, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: DE_690, server: 5.183.179.166, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: DE_591, server: 5.183.179.137, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: DE_561, server: 5.183.179.146, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: DE_513, server: 5.183.179.166, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: CA_329, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: RU_1563, server: 45.153.231.57, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: HhUG0LZD19Ma, udp: true}
+  - {name: RO_1501, server: 62.216.91.229, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: RU_1669, server: 194.87.99.122, port: 62560, type: vmess, uuid: e19c03f6-97b9-4c2b-a42d-19daea18d849, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AU_150, server: 43.135.70.192, port: 24740, type: vmess, uuid: 3749de34-a1a9-44db-b72a-510712a52d11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.135.70.192]}}, udp: true}
+  - {name: RO_1493, server: 185.126.116.117, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: DE_566, server: 5.183.179.146, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: DE_679, server: 5.183.179.146, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: GB_837, server: 152.89.210.84, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: GB_886, server: 152.89.210.105, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: AU_107, server: 185.167.116.253, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3820, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us02.gogogoo.cyou}, udp: true}
+  - {name: FR_806, server: 145.239.1.100, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: DE_544, server: 5.183.179.166, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: RU_1526, server: 217.30.10.66, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: RU_1621, server: 217.30.10.66, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: DE_619, server: 5.183.179.146, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: RO_1510, server: 185.126.116.117, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: LT_1163, server: 213.183.63.218, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: CA_437, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: LT_1186, server: 213.183.63.218, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: US_2226, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: RU_1663, server: 217.30.10.66, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: GB_839, server: 152.89.210.84, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: RU_1590, server: 217.30.10.65, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: DE_666, server: 5.183.179.166, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: RU_1568, server: 217.30.10.67, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: KR_1129, server: 140.238.6.99, port: 443, type: vmess, uuid: f613af75-f9eb-3d84-9357-7c3b00d950a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /live/cctv6_2/index.m3u8, ws-headers: {Host: 140.238.6.99}, udp: true}
+  - {name: RU_1589, server: 217.30.10.67, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: LT_1164, server: 213.183.63.218, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: DE_716, server: 5.183.179.146, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: RU_1622, server: 217.30.10.65, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: LT_1194, server: 213.183.63.218, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: RU_1564, server: 217.30.10.67, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: RU_1665, server: 217.30.10.65, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: DE_688, server: 5.183.179.166, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: ZZ_4607, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: DE_637, server: 5.183.179.146, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: CN_443, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: DE_535, server: 5.183.179.146, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: CN_448, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_469, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: UA_1823, server: 176.103.61.162, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: IjBemsAg, udp: true}
+  - {name: CN_466, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: RU_1552, server: 217.30.10.67, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: FR_799, server: 145.239.1.100, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: RU_1617, server: 217.30.10.66, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: AU_152, server: 43.129.227.60, port: 27727, type: vmess, uuid: d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.129.227.60]}}, udp: true}
+  - {name: LT_1246, server: 213.183.63.218, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: Relay_🇺🇸US-🇷🇺RU_3822, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
+  - {name: CN_445, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_492
-      - Relay_🇨🇳CN-🇲🇾MY_491
-      - US_3057
-      - Relay_🇺🇸US-🇺🇸US_3802
-      - Relay_🇺🇸US-🇺🇸US_3808
-      - JP_1085
-      - US_2592
-      - Relay_🇭🇰HK-🇭🇰HK_912
-      - US_3239
-      - US_2696
-      - US_3184
-      - US_2813
-      - Relay_🇺🇸US-🇷🇺RU_3777
-      - Relay_🇺🇸US-🇺🇸US_3786
-      - US_3252
-      - Relay_🇺🇸US-🇺🇸US_3788
-      - NL_1333
-      - KR_1091
-      - Relay_🇺🇸US-🇺🇸US_3757
-      - Relay_🇺🇸US-🇯🇵JP_3749
-      - Relay_🇺🇸US-🇷🇺RU_3740
-      - US_2110
-      - US_2114
-      - US_1987
-      - US_2278
-      - US_3399
-      - US_3193
-      - US_3539
-      - US_2248
-      - US_3670
-      - US_3260
-      - US_2373
-      - US_3470
-      - US_3180
-      - US_3045
-      - US_3580
-      - US_2075
-      - US_3492
-      - US_3530
-      - US_3061
-      - ZZ_4160
-      - ZZ_3973
-      - US_2158
-      - FR_739
-      - Relay_🇺🇦UA-🇺🇦UA_1772
-      - ZZ_4608
-      - US_2112
-      - US_3027
-      - US_3427
-      - US_3780
+      - Relay_🇺🇸US-🇺🇸US_3837
+      - GB_896
+      - DE_611
+      - Relay_🇺🇸US-🇺🇸US_3864
+      - DE_606
+      - DE_636
+      - DE_690
+      - DE_591
+      - DE_561
+      - DE_513
+      - CA_329
+      - RU_1563
+      - RO_1501
+      - RU_1669
+      - AU_150
+      - RO_1493
+      - DE_566
+      - DE_679
+      - GB_837
+      - GB_886
+      - AU_107
+      - Relay_🇺🇸US-🇺🇸US_3820
+      - FR_806
+      - DE_544
+      - RU_1526
+      - RU_1621
+      - DE_619
+      - RO_1510
+      - LT_1163
+      - CA_437
+      - LT_1186
+      - US_2226
+      - RU_1663
+      - GB_839
+      - RU_1590
+      - DE_666
+      - RU_1568
+      - KR_1129
+      - RU_1589
+      - LT_1164
+      - DE_716
+      - RU_1622
+      - LT_1194
+      - RU_1564
+      - RU_1665
+      - DE_688
+      - ZZ_4607
+      - DE_637
+      - CN_443
+      - DE_535
+      - CN_448
+      - CN_469
+      - UA_1823
+      - CN_466
+      - RU_1552
+      - FR_799
+      - RU_1617
+      - AU_152
+      - LT_1246
+      - Relay_🇺🇸US-🇷🇺RU_3822
+      - CN_445
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳CN-🇭🇰HK_492
-      - Relay_🇨🇳CN-🇲🇾MY_491
-      - US_3057
-      - Relay_🇺🇸US-🇺🇸US_3802
-      - Relay_🇺🇸US-🇺🇸US_3808
-      - JP_1085
-      - US_2592
-      - Relay_🇭🇰HK-🇭🇰HK_912
-      - US_3239
-      - US_2696
-      - US_3184
-      - US_2813
-      - Relay_🇺🇸US-🇷🇺RU_3777
-      - Relay_🇺🇸US-🇺🇸US_3786
-      - US_3252
-      - Relay_🇺🇸US-🇺🇸US_3788
-      - NL_1333
-      - KR_1091
-      - Relay_🇺🇸US-🇺🇸US_3757
-      - Relay_🇺🇸US-🇯🇵JP_3749
-      - Relay_🇺🇸US-🇷🇺RU_3740
-      - US_2110
-      - US_2114
-      - US_1987
-      - US_2278
-      - US_3399
-      - US_3193
-      - US_3539
-      - US_2248
-      - US_3670
-      - US_3260
-      - US_2373
-      - US_3470
-      - US_3180
-      - US_3045
-      - US_3580
-      - US_2075
-      - US_3492
-      - US_3530
-      - US_3061
-      - ZZ_4160
-      - ZZ_3973
-      - US_2158
-      - FR_739
-      - Relay_🇺🇦UA-🇺🇦UA_1772
-      - ZZ_4608
-      - US_2112
-      - US_3027
-      - US_3427
-      - US_3780
+      - Relay_🇺🇸US-🇺🇸US_3837
+      - GB_896
+      - DE_611
+      - Relay_🇺🇸US-🇺🇸US_3864
+      - DE_606
+      - DE_636
+      - DE_690
+      - DE_591
+      - DE_561
+      - DE_513
+      - CA_329
+      - RU_1563
+      - RO_1501
+      - RU_1669
+      - AU_150
+      - RO_1493
+      - DE_566
+      - DE_679
+      - GB_837
+      - GB_886
+      - AU_107
+      - Relay_🇺🇸US-🇺🇸US_3820
+      - FR_806
+      - DE_544
+      - RU_1526
+      - RU_1621
+      - DE_619
+      - RO_1510
+      - LT_1163
+      - CA_437
+      - LT_1186
+      - US_2226
+      - RU_1663
+      - GB_839
+      - RU_1590
+      - DE_666
+      - RU_1568
+      - KR_1129
+      - RU_1589
+      - LT_1164
+      - DE_716
+      - RU_1622
+      - LT_1194
+      - RU_1564
+      - RU_1665
+      - DE_688
+      - ZZ_4607
+      - DE_637
+      - CN_443
+      - DE_535
+      - CN_448
+      - CN_469
+      - UA_1823
+      - CN_466
+      - RU_1552
+      - FR_799
+      - RU_1617
+      - AU_152
+      - LT_1246
+      - Relay_🇺🇸US-🇷🇺RU_3822
+      - CN_445
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_492
-      - Relay_🇨🇳CN-🇲🇾MY_491
-      - US_3057
-      - Relay_🇺🇸US-🇺🇸US_3802
-      - Relay_🇺🇸US-🇺🇸US_3808
-      - JP_1085
-      - US_2592
-      - Relay_🇭🇰HK-🇭🇰HK_912
-      - US_3239
-      - US_2696
-      - US_3184
-      - US_2813
-      - Relay_🇺🇸US-🇷🇺RU_3777
-      - Relay_🇺🇸US-🇺🇸US_3786
-      - US_3252
-      - Relay_🇺🇸US-🇺🇸US_3788
-      - NL_1333
-      - KR_1091
-      - Relay_🇺🇸US-🇺🇸US_3757
-      - Relay_🇺🇸US-🇯🇵JP_3749
-      - Relay_🇺🇸US-🇷🇺RU_3740
-      - US_2110
-      - US_2114
-      - US_1987
-      - US_2278
-      - US_3399
-      - US_3193
-      - US_3539
-      - US_2248
-      - US_3670
-      - US_3260
-      - US_2373
-      - US_3470
-      - US_3180
-      - US_3045
-      - US_3580
-      - US_2075
-      - US_3492
-      - US_3530
-      - US_3061
-      - ZZ_4160
-      - ZZ_3973
-      - US_2158
-      - FR_739
-      - Relay_🇺🇦UA-🇺🇦UA_1772
-      - ZZ_4608
-      - US_2112
-      - US_3027
-      - US_3427
-      - US_3780
+      - Relay_🇺🇸US-🇺🇸US_3837
+      - GB_896
+      - DE_611
+      - Relay_🇺🇸US-🇺🇸US_3864
+      - DE_606
+      - DE_636
+      - DE_690
+      - DE_591
+      - DE_561
+      - DE_513
+      - CA_329
+      - RU_1563
+      - RO_1501
+      - RU_1669
+      - AU_150
+      - RO_1493
+      - DE_566
+      - DE_679
+      - GB_837
+      - GB_886
+      - AU_107
+      - Relay_🇺🇸US-🇺🇸US_3820
+      - FR_806
+      - DE_544
+      - RU_1526
+      - RU_1621
+      - DE_619
+      - RO_1510
+      - LT_1163
+      - CA_437
+      - LT_1186
+      - US_2226
+      - RU_1663
+      - GB_839
+      - RU_1590
+      - DE_666
+      - RU_1568
+      - KR_1129
+      - RU_1589
+      - LT_1164
+      - DE_716
+      - RU_1622
+      - LT_1194
+      - RU_1564
+      - RU_1665
+      - DE_688
+      - ZZ_4607
+      - DE_637
+      - CN_443
+      - DE_535
+      - CN_448
+      - CN_469
+      - UA_1823
+      - CN_466
+      - RU_1552
+      - FR_799
+      - RU_1617
+      - AU_152
+      - LT_1246
+      - Relay_🇺🇸US-🇷🇺RU_3822
+      - CN_445
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -240,56 +284,67 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_492
-      - Relay_🇨🇳CN-🇲🇾MY_491
-      - US_3057
-      - Relay_🇺🇸US-🇺🇸US_3802
-      - Relay_🇺🇸US-🇺🇸US_3808
-      - JP_1085
-      - US_2592
-      - Relay_🇭🇰HK-🇭🇰HK_912
-      - US_3239
-      - US_2696
-      - US_3184
-      - US_2813
-      - Relay_🇺🇸US-🇷🇺RU_3777
-      - Relay_🇺🇸US-🇺🇸US_3786
-      - US_3252
-      - Relay_🇺🇸US-🇺🇸US_3788
-      - NL_1333
-      - KR_1091
-      - Relay_🇺🇸US-🇺🇸US_3757
-      - Relay_🇺🇸US-🇯🇵JP_3749
-      - Relay_🇺🇸US-🇷🇺RU_3740
-      - US_2110
-      - US_2114
-      - US_1987
-      - US_2278
-      - US_3399
-      - US_3193
-      - US_3539
-      - US_2248
-      - US_3670
-      - US_3260
-      - US_2373
-      - US_3470
-      - US_3180
-      - US_3045
-      - US_3580
-      - US_2075
-      - US_3492
-      - US_3530
-      - US_3061
-      - ZZ_4160
-      - ZZ_3973
-      - US_2158
-      - FR_739
-      - Relay_🇺🇦UA-🇺🇦UA_1772
-      - ZZ_4608
-      - US_2112
-      - US_3027
-      - US_3427
-      - US_3780
+      - Relay_🇺🇸US-🇺🇸US_3837
+      - GB_896
+      - DE_611
+      - Relay_🇺🇸US-🇺🇸US_3864
+      - DE_606
+      - DE_636
+      - DE_690
+      - DE_591
+      - DE_561
+      - DE_513
+      - CA_329
+      - RU_1563
+      - RO_1501
+      - RU_1669
+      - AU_150
+      - RO_1493
+      - DE_566
+      - DE_679
+      - GB_837
+      - GB_886
+      - AU_107
+      - Relay_🇺🇸US-🇺🇸US_3820
+      - FR_806
+      - DE_544
+      - RU_1526
+      - RU_1621
+      - DE_619
+      - RO_1510
+      - LT_1163
+      - CA_437
+      - LT_1186
+      - US_2226
+      - RU_1663
+      - GB_839
+      - RU_1590
+      - DE_666
+      - RU_1568
+      - KR_1129
+      - RU_1589
+      - LT_1164
+      - DE_716
+      - RU_1622
+      - LT_1194
+      - RU_1564
+      - RU_1665
+      - DE_688
+      - ZZ_4607
+      - DE_637
+      - CN_443
+      - DE_535
+      - CN_448
+      - CN_469
+      - UA_1823
+      - CN_466
+      - RU_1552
+      - FR_799
+      - RU_1617
+      - AU_152
+      - LT_1246
+      - Relay_🇺🇸US-🇷🇺RU_3822
+      - CN_445
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -300,167 +355,200 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇭🇰HK_492
-      - Relay_🇨🇳CN-🇲🇾MY_491
-      - US_3057
-      - Relay_🇺🇸US-🇺🇸US_3802
-      - Relay_🇺🇸US-🇺🇸US_3808
-      - JP_1085
-      - US_2592
-      - Relay_🇭🇰HK-🇭🇰HK_912
-      - US_3239
-      - US_2696
-      - US_3184
-      - US_2813
-      - Relay_🇺🇸US-🇷🇺RU_3777
-      - Relay_🇺🇸US-🇺🇸US_3786
-      - US_3252
-      - Relay_🇺🇸US-🇺🇸US_3788
-      - NL_1333
-      - KR_1091
-      - Relay_🇺🇸US-🇺🇸US_3757
-      - Relay_🇺🇸US-🇯🇵JP_3749
-      - Relay_🇺🇸US-🇷🇺RU_3740
-      - US_2110
-      - US_2114
-      - US_1987
-      - US_2278
-      - US_3399
-      - US_3193
-      - US_3539
-      - US_2248
-      - US_3670
-      - US_3260
-      - US_2373
-      - US_3470
-      - US_3180
-      - US_3045
-      - US_3580
-      - US_2075
-      - US_3492
-      - US_3530
-      - US_3061
-      - ZZ_4160
-      - ZZ_3973
-      - US_2158
-      - FR_739
-      - Relay_🇺🇦UA-🇺🇦UA_1772
-      - ZZ_4608
-      - US_2112
-      - US_3027
-      - US_3427
-      - US_3780
+      - Relay_🇺🇸US-🇺🇸US_3837
+      - GB_896
+      - DE_611
+      - Relay_🇺🇸US-🇺🇸US_3864
+      - DE_606
+      - DE_636
+      - DE_690
+      - DE_591
+      - DE_561
+      - DE_513
+      - CA_329
+      - RU_1563
+      - RO_1501
+      - RU_1669
+      - AU_150
+      - RO_1493
+      - DE_566
+      - DE_679
+      - GB_837
+      - GB_886
+      - AU_107
+      - Relay_🇺🇸US-🇺🇸US_3820
+      - FR_806
+      - DE_544
+      - RU_1526
+      - RU_1621
+      - DE_619
+      - RO_1510
+      - LT_1163
+      - CA_437
+      - LT_1186
+      - US_2226
+      - RU_1663
+      - GB_839
+      - RU_1590
+      - DE_666
+      - RU_1568
+      - KR_1129
+      - RU_1589
+      - LT_1164
+      - DE_716
+      - RU_1622
+      - LT_1194
+      - RU_1564
+      - RU_1665
+      - DE_688
+      - ZZ_4607
+      - DE_637
+      - CN_443
+      - DE_535
+      - CN_448
+      - CN_469
+      - UA_1823
+      - CN_466
+      - RU_1552
+      - FR_799
+      - RU_1617
+      - AU_152
+      - LT_1246
+      - Relay_🇺🇸US-🇷🇺RU_3822
+      - CN_445
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_492
-      - Relay_🇨🇳CN-🇲🇾MY_491
-      - US_3057
-      - Relay_🇺🇸US-🇺🇸US_3802
-      - Relay_🇺🇸US-🇺🇸US_3808
-      - JP_1085
-      - US_2592
-      - Relay_🇭🇰HK-🇭🇰HK_912
-      - US_3239
-      - US_2696
-      - US_3184
-      - US_2813
-      - Relay_🇺🇸US-🇷🇺RU_3777
-      - Relay_🇺🇸US-🇺🇸US_3786
-      - US_3252
-      - Relay_🇺🇸US-🇺🇸US_3788
-      - NL_1333
-      - KR_1091
-      - Relay_🇺🇸US-🇺🇸US_3757
-      - Relay_🇺🇸US-🇯🇵JP_3749
-      - Relay_🇺🇸US-🇷🇺RU_3740
-      - US_2110
-      - US_2114
-      - US_1987
-      - US_2278
-      - US_3399
-      - US_3193
-      - US_3539
-      - US_2248
-      - US_3670
-      - US_3260
-      - US_2373
-      - US_3470
-      - US_3180
-      - US_3045
-      - US_3580
-      - US_2075
-      - US_3492
-      - US_3530
-      - US_3061
-      - ZZ_4160
-      - ZZ_3973
-      - US_2158
-      - FR_739
-      - Relay_🇺🇦UA-🇺🇦UA_1772
-      - ZZ_4608
-      - US_2112
-      - US_3027
-      - US_3427
-      - US_3780
+      - Relay_🇺🇸US-🇺🇸US_3837
+      - GB_896
+      - DE_611
+      - Relay_🇺🇸US-🇺🇸US_3864
+      - DE_606
+      - DE_636
+      - DE_690
+      - DE_591
+      - DE_561
+      - DE_513
+      - CA_329
+      - RU_1563
+      - RO_1501
+      - RU_1669
+      - AU_150
+      - RO_1493
+      - DE_566
+      - DE_679
+      - GB_837
+      - GB_886
+      - AU_107
+      - Relay_🇺🇸US-🇺🇸US_3820
+      - FR_806
+      - DE_544
+      - RU_1526
+      - RU_1621
+      - DE_619
+      - RO_1510
+      - LT_1163
+      - CA_437
+      - LT_1186
+      - US_2226
+      - RU_1663
+      - GB_839
+      - RU_1590
+      - DE_666
+      - RU_1568
+      - KR_1129
+      - RU_1589
+      - LT_1164
+      - DE_716
+      - RU_1622
+      - LT_1194
+      - RU_1564
+      - RU_1665
+      - DE_688
+      - ZZ_4607
+      - DE_637
+      - CN_443
+      - DE_535
+      - CN_448
+      - CN_469
+      - UA_1823
+      - CN_466
+      - RU_1552
+      - FR_799
+      - RU_1617
+      - AU_152
+      - LT_1246
+      - Relay_🇺🇸US-🇷🇺RU_3822
+      - CN_445
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇭🇰HK_492
-      - Relay_🇨🇳CN-🇲🇾MY_491
-      - US_3057
-      - Relay_🇺🇸US-🇺🇸US_3802
-      - Relay_🇺🇸US-🇺🇸US_3808
-      - JP_1085
-      - US_2592
-      - Relay_🇭🇰HK-🇭🇰HK_912
-      - US_3239
-      - US_2696
-      - US_3184
-      - US_2813
-      - Relay_🇺🇸US-🇷🇺RU_3777
-      - Relay_🇺🇸US-🇺🇸US_3786
-      - US_3252
-      - Relay_🇺🇸US-🇺🇸US_3788
-      - NL_1333
-      - KR_1091
-      - Relay_🇺🇸US-🇺🇸US_3757
-      - Relay_🇺🇸US-🇯🇵JP_3749
-      - Relay_🇺🇸US-🇷🇺RU_3740
-      - US_2110
-      - US_2114
-      - US_1987
-      - US_2278
-      - US_3399
-      - US_3193
-      - US_3539
-      - US_2248
-      - US_3670
-      - US_3260
-      - US_2373
-      - US_3470
-      - US_3180
-      - US_3045
-      - US_3580
-      - US_2075
-      - US_3492
-      - US_3530
-      - US_3061
-      - ZZ_4160
-      - ZZ_3973
-      - US_2158
-      - FR_739
-      - Relay_🇺🇦UA-🇺🇦UA_1772
-      - ZZ_4608
-      - US_2112
-      - US_3027
-      - US_3427
-      - US_3780
+      - Relay_🇺🇸US-🇺🇸US_3837
+      - GB_896
+      - DE_611
+      - Relay_🇺🇸US-🇺🇸US_3864
+      - DE_606
+      - DE_636
+      - DE_690
+      - DE_591
+      - DE_561
+      - DE_513
+      - CA_329
+      - RU_1563
+      - RO_1501
+      - RU_1669
+      - AU_150
+      - RO_1493
+      - DE_566
+      - DE_679
+      - GB_837
+      - GB_886
+      - AU_107
+      - Relay_🇺🇸US-🇺🇸US_3820
+      - FR_806
+      - DE_544
+      - RU_1526
+      - RU_1621
+      - DE_619
+      - RO_1510
+      - LT_1163
+      - CA_437
+      - LT_1186
+      - US_2226
+      - RU_1663
+      - GB_839
+      - RU_1590
+      - DE_666
+      - RU_1568
+      - KR_1129
+      - RU_1589
+      - LT_1164
+      - DE_716
+      - RU_1622
+      - LT_1194
+      - RU_1564
+      - RU_1665
+      - DE_688
+      - ZZ_4607
+      - DE_637
+      - CN_443
+      - DE_535
+      - CN_448
+      - CN_469
+      - UA_1823
+      - CN_466
+      - RU_1552
+      - FR_799
+      - RU_1617
+      - AU_152
+      - LT_1246
+      - Relay_🇺🇸US-🇷🇺RU_3822
+      - CN_445
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -476,56 +564,67 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇭🇰HK_492
-      - Relay_🇨🇳CN-🇲🇾MY_491
-      - US_3057
-      - Relay_🇺🇸US-🇺🇸US_3802
-      - Relay_🇺🇸US-🇺🇸US_3808
-      - JP_1085
-      - US_2592
-      - Relay_🇭🇰HK-🇭🇰HK_912
-      - US_3239
-      - US_2696
-      - US_3184
-      - US_2813
-      - Relay_🇺🇸US-🇷🇺RU_3777
-      - Relay_🇺🇸US-🇺🇸US_3786
-      - US_3252
-      - Relay_🇺🇸US-🇺🇸US_3788
-      - NL_1333
-      - KR_1091
-      - Relay_🇺🇸US-🇺🇸US_3757
-      - Relay_🇺🇸US-🇯🇵JP_3749
-      - Relay_🇺🇸US-🇷🇺RU_3740
-      - US_2110
-      - US_2114
-      - US_1987
-      - US_2278
-      - US_3399
-      - US_3193
-      - US_3539
-      - US_2248
-      - US_3670
-      - US_3260
-      - US_2373
-      - US_3470
-      - US_3180
-      - US_3045
-      - US_3580
-      - US_2075
-      - US_3492
-      - US_3530
-      - US_3061
-      - ZZ_4160
-      - ZZ_3973
-      - US_2158
-      - FR_739
-      - Relay_🇺🇦UA-🇺🇦UA_1772
-      - ZZ_4608
-      - US_2112
-      - US_3027
-      - US_3427
-      - US_3780
+      - Relay_🇺🇸US-🇺🇸US_3837
+      - GB_896
+      - DE_611
+      - Relay_🇺🇸US-🇺🇸US_3864
+      - DE_606
+      - DE_636
+      - DE_690
+      - DE_591
+      - DE_561
+      - DE_513
+      - CA_329
+      - RU_1563
+      - RO_1501
+      - RU_1669
+      - AU_150
+      - RO_1493
+      - DE_566
+      - DE_679
+      - GB_837
+      - GB_886
+      - AU_107
+      - Relay_🇺🇸US-🇺🇸US_3820
+      - FR_806
+      - DE_544
+      - RU_1526
+      - RU_1621
+      - DE_619
+      - RO_1510
+      - LT_1163
+      - CA_437
+      - LT_1186
+      - US_2226
+      - RU_1663
+      - GB_839
+      - RU_1590
+      - DE_666
+      - RU_1568
+      - KR_1129
+      - RU_1589
+      - LT_1164
+      - DE_716
+      - RU_1622
+      - LT_1194
+      - RU_1564
+      - RU_1665
+      - DE_688
+      - ZZ_4607
+      - DE_637
+      - CN_443
+      - DE_535
+      - CN_448
+      - CN_469
+      - UA_1823
+      - CN_466
+      - RU_1552
+      - FR_799
+      - RU_1617
+      - AU_152
+      - LT_1246
+      - Relay_🇺🇸US-🇷🇺RU_3822
+      - CN_445
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
