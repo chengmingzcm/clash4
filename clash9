@@ -5,235 +5,151 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳CN-🇹🇼TW_308, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_309, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: KR_769, server: 13.125.218.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 20934 @WangCai_1, server: 121.204.247.86, port: 20934, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20931 @WangCai_1, server: 121.204.247.86, port: 20931, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20933 @WangCai_1, server: 121.204.247.86, port: 20933, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20937 @WangCai_1, server: 121.204.247.86, port: 20937, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20935 @WangCai_1, server: 121.204.247.86, port: 20935, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20940 @WangCai_1, server: 121.204.247.86, port: 20940, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20932 @WangCai_1, server: 121.204.247.86, port: 20932, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20936 @WangCai_1, server: 121.204.247.86, port: 20936, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20913 @WangCai_1, server: 121.204.247.86, port: 20913, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
   - {name: AU_43, server: 43.200.6.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: Relay_🏁ZZ-🇹🇼TW_3579, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
+  - {name: 20930 @WangCai_1, server: 121.204.247.86, port: 20930, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20911 @WangCai_1, server: 121.204.247.86, port: 20911, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_308, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 20910 @WangCai_1, server: 121.204.247.86, port: 20910, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20955 @WangCai_1, server: 121.204.247.86, port: 20955, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20957 @WangCai_1, server: 121.204.247.86, port: 20957, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20951 @WangCai_1, server: 121.204.247.86, port: 20951, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20953 @WangCai_1, server: 121.204.247.86, port: 20953, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20912 @WangCai_1, server: 121.204.247.86, port: 20912, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20950 @WangCai_1, server: 121.204.247.86, port: 20950, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20920 @WangCai_1, server: 121.204.247.86, port: 20920, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20942 @WangCai_1, server: 121.204.247.86, port: 20942, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
   - {name: Relay_🇨🇳CN-🇺🇸US_263, server: dajbxus.naikonode.top, port: 15105, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
-  - {name: US_3051, server: 172.96.192.100, port: 246, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
+  - {name: 20943 @WangCai_1, server: 121.204.247.86, port: 20943, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20941 @WangCai_1, server: 121.204.247.86, port: 20941, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20952 @WangCai_1, server: 121.204.247.86, port: 20952, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: Relay_🏁ZZ-🇹🇼TW_3579, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
+  - {name: 20956 @WangCai_1, server: 121.204.247.86, port: 20956, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: 20954 @WangCai_1, server: 121.204.247.86, port: 20954, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_309, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: Relay_🇬🇧GB-🇬🇧GB_723, server: s3.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_92, server: neteasy.ga, port: 28931, type: trojan, password: MnROfwtPYa, sni: neteasy.ga, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇷🇺RU_3070, server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v4.ssrsub.com}, udp: true}
-  - {name: Relay_🇷🇺RU-🇷🇺RU_1714, server: russia.okzdns.com, port: 33306, type: trojan, password: 35a3b37b-9fb4-4b0c-91b4-2b3e738af930, sni: russia.okzdns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇷🇺RU-🇷🇺RU_1646, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_718, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇷🇺RU_3091, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: LT_1136, server: 213.183.53.177, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: Relay_🇩🇪DE-🇩🇪DE_505, server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: NL_1348, server: 213.183.59.206, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: NL_1451, server: 213.183.59.211, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: NL_1323, server: 213.183.59.211, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: NL_1343, server: 213.183.59.214, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: NL_1411, server: 213.183.59.211, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: NL_1418, server: 213.183.59.214, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
-  - {name: NL_1423, server: 213.183.59.214, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: NL_1438, server: 213.183.59.190, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: NL_1331, server: 213.183.59.206, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: NL_1335, server: 213.183.59.214, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: NL_1375, server: 213.183.59.206, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: NL_1401, server: 213.183.59.211, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: NL_1413, server: 213.183.59.206, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: NL_1424, server: 213.183.59.214, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: NL_1452, server: 213.183.59.214, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: NL_1333, server: 213.183.59.214, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: NL_1341, server: 213.183.59.206, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: NL_1388, server: 213.183.59.206, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
-  - {name: NL_1420, server: 213.183.59.206, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
-  - {name: NL_1442, server: 213.183.59.211, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: NL_1459, server: 213.183.59.206, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: Relay_🇩🇪DE-🇩🇪DE_506, server: s4.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: NL_1366, server: 213.183.59.211, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: NL_1384, server: 213.183.59.206, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
-  - {name: NL_1434, server: 213.183.59.206, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: NL_1443, server: 213.183.59.206, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: NL_1380, server: 213.183.59.206, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: NL_1385, server: 213.183.59.214, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: NL_1403, server: 213.183.59.214, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: NL_1387, server: 213.183.59.211, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: NL_1389, server: 213.183.59.214, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: NL_1402, server: 213.183.59.206, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: NL_1408, server: 213.183.59.206, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_2805, server: jp2.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, sni: jp2.trojan.tel, skip-cert-verify: true, udp: true}
-  - {name: ZZ_3011, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: PL_1088, server: 194.15.196.78, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_62, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_308
-      - Relay_🇨🇳CN-🇹🇼TW_309
-      - KR_769
+      - 20934 @WangCai_1
+      - 20931 @WangCai_1
+      - 20933 @WangCai_1
+      - 20937 @WangCai_1
+      - 20935 @WangCai_1
+      - 20940 @WangCai_1
+      - 20932 @WangCai_1
+      - 20936 @WangCai_1
+      - 20913 @WangCai_1
       - AU_43
-      - Relay_🏁ZZ-🇹🇼TW_3579
+      - 20930 @WangCai_1
+      - 20911 @WangCai_1
+      - Relay_🇨🇳CN-🇹🇼TW_308
+      - 20910 @WangCai_1
+      - 20955 @WangCai_1
+      - 20957 @WangCai_1
+      - 20951 @WangCai_1
+      - 20953 @WangCai_1
+      - 20912 @WangCai_1
+      - 20950 @WangCai_1
+      - 20920 @WangCai_1
+      - 20942 @WangCai_1
       - Relay_🇨🇳CN-🇺🇸US_263
-      - US_3051
+      - 20943 @WangCai_1
+      - 20941 @WangCai_1
+      - 20952 @WangCai_1
+      - Relay_🏁ZZ-🇹🇼TW_3579
+      - 20956 @WangCai_1
+      - 20954 @WangCai_1
+      - Relay_🇨🇳CN-🇹🇼TW_309
       - Relay_🇬🇧GB-🇬🇧GB_723
-      - Relay_🇦🇺AU-🇦🇺AU_92
-      - Relay_🇺🇸US-🇷🇺RU_3070
-      - Relay_🇷🇺RU-🇷🇺RU_1714
-      - Relay_🇷🇺RU-🇷🇺RU_1646
-      - Relay_🇬🇧GB-🇬🇧GB_718
-      - Relay_🇺🇸US-🇷🇺RU_3091
-      - LT_1136
-      - Relay_🇩🇪DE-🇩🇪DE_505
-      - NL_1348
-      - NL_1451
-      - NL_1323
-      - NL_1343
-      - NL_1411
-      - NL_1418
-      - NL_1423
-      - NL_1438
-      - NL_1331
-      - NL_1335
-      - NL_1375
-      - NL_1401
-      - NL_1413
-      - NL_1424
-      - NL_1452
-      - NL_1333
-      - NL_1341
-      - NL_1388
-      - NL_1420
-      - NL_1442
-      - NL_1459
-      - Relay_🇩🇪DE-🇩🇪DE_506
-      - NL_1366
-      - NL_1384
-      - NL_1434
-      - NL_1443
-      - NL_1380
-      - NL_1385
-      - NL_1403
-      - NL_1387
-      - NL_1389
-      - NL_1402
-      - NL_1408
       - Relay_🇺🇸US-🇺🇸US_2805
-      - ZZ_3011
-      - PL_1088
-      - Relay_🇦🇺AU-🇦🇺AU_62
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳CN-🇹🇼TW_308
-      - Relay_🇨🇳CN-🇹🇼TW_309
-      - KR_769
+      - 20934 @WangCai_1
+      - 20931 @WangCai_1
+      - 20933 @WangCai_1
+      - 20937 @WangCai_1
+      - 20935 @WangCai_1
+      - 20940 @WangCai_1
+      - 20932 @WangCai_1
+      - 20936 @WangCai_1
+      - 20913 @WangCai_1
       - AU_43
-      - Relay_🏁ZZ-🇹🇼TW_3579
+      - 20930 @WangCai_1
+      - 20911 @WangCai_1
+      - Relay_🇨🇳CN-🇹🇼TW_308
+      - 20910 @WangCai_1
+      - 20955 @WangCai_1
+      - 20957 @WangCai_1
+      - 20951 @WangCai_1
+      - 20953 @WangCai_1
+      - 20912 @WangCai_1
+      - 20950 @WangCai_1
+      - 20920 @WangCai_1
+      - 20942 @WangCai_1
       - Relay_🇨🇳CN-🇺🇸US_263
-      - US_3051
+      - 20943 @WangCai_1
+      - 20941 @WangCai_1
+      - 20952 @WangCai_1
+      - Relay_🏁ZZ-🇹🇼TW_3579
+      - 20956 @WangCai_1
+      - 20954 @WangCai_1
+      - Relay_🇨🇳CN-🇹🇼TW_309
       - Relay_🇬🇧GB-🇬🇧GB_723
-      - Relay_🇦🇺AU-🇦🇺AU_92
-      - Relay_🇺🇸US-🇷🇺RU_3070
-      - Relay_🇷🇺RU-🇷🇺RU_1714
-      - Relay_🇷🇺RU-🇷🇺RU_1646
-      - Relay_🇬🇧GB-🇬🇧GB_718
-      - Relay_🇺🇸US-🇷🇺RU_3091
-      - LT_1136
-      - Relay_🇩🇪DE-🇩🇪DE_505
-      - NL_1348
-      - NL_1451
-      - NL_1323
-      - NL_1343
-      - NL_1411
-      - NL_1418
-      - NL_1423
-      - NL_1438
-      - NL_1331
-      - NL_1335
-      - NL_1375
-      - NL_1401
-      - NL_1413
-      - NL_1424
-      - NL_1452
-      - NL_1333
-      - NL_1341
-      - NL_1388
-      - NL_1420
-      - NL_1442
-      - NL_1459
-      - Relay_🇩🇪DE-🇩🇪DE_506
-      - NL_1366
-      - NL_1384
-      - NL_1434
-      - NL_1443
-      - NL_1380
-      - NL_1385
-      - NL_1403
-      - NL_1387
-      - NL_1389
-      - NL_1402
-      - NL_1408
       - Relay_🇺🇸US-🇺🇸US_2805
-      - ZZ_3011
-      - PL_1088
-      - Relay_🇦🇺AU-🇦🇺AU_62
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_308
-      - Relay_🇨🇳CN-🇹🇼TW_309
-      - KR_769
+      - 20934 @WangCai_1
+      - 20931 @WangCai_1
+      - 20933 @WangCai_1
+      - 20937 @WangCai_1
+      - 20935 @WangCai_1
+      - 20940 @WangCai_1
+      - 20932 @WangCai_1
+      - 20936 @WangCai_1
+      - 20913 @WangCai_1
       - AU_43
-      - Relay_🏁ZZ-🇹🇼TW_3579
+      - 20930 @WangCai_1
+      - 20911 @WangCai_1
+      - Relay_🇨🇳CN-🇹🇼TW_308
+      - 20910 @WangCai_1
+      - 20955 @WangCai_1
+      - 20957 @WangCai_1
+      - 20951 @WangCai_1
+      - 20953 @WangCai_1
+      - 20912 @WangCai_1
+      - 20950 @WangCai_1
+      - 20920 @WangCai_1
+      - 20942 @WangCai_1
       - Relay_🇨🇳CN-🇺🇸US_263
-      - US_3051
+      - 20943 @WangCai_1
+      - 20941 @WangCai_1
+      - 20952 @WangCai_1
+      - Relay_🏁ZZ-🇹🇼TW_3579
+      - 20956 @WangCai_1
+      - 20954 @WangCai_1
+      - Relay_🇨🇳CN-🇹🇼TW_309
       - Relay_🇬🇧GB-🇬🇧GB_723
-      - Relay_🇦🇺AU-🇦🇺AU_92
-      - Relay_🇺🇸US-🇷🇺RU_3070
-      - Relay_🇷🇺RU-🇷🇺RU_1714
-      - Relay_🇷🇺RU-🇷🇺RU_1646
-      - Relay_🇬🇧GB-🇬🇧GB_718
-      - Relay_🇺🇸US-🇷🇺RU_3091
-      - LT_1136
-      - Relay_🇩🇪DE-🇩🇪DE_505
-      - NL_1348
-      - NL_1451
-      - NL_1323
-      - NL_1343
-      - NL_1411
-      - NL_1418
-      - NL_1423
-      - NL_1438
-      - NL_1331
-      - NL_1335
-      - NL_1375
-      - NL_1401
-      - NL_1413
-      - NL_1424
-      - NL_1452
-      - NL_1333
-      - NL_1341
-      - NL_1388
-      - NL_1420
-      - NL_1442
-      - NL_1459
-      - Relay_🇩🇪DE-🇩🇪DE_506
-      - NL_1366
-      - NL_1384
-      - NL_1434
-      - NL_1443
-      - NL_1380
-      - NL_1385
-      - NL_1403
-      - NL_1387
-      - NL_1389
-      - NL_1402
-      - NL_1408
       - Relay_🇺🇸US-🇺🇸US_2805
-      - ZZ_3011
-      - PL_1088
-      - Relay_🇦🇺AU-🇦🇺AU_62
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -252,59 +168,38 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_308
-      - Relay_🇨🇳CN-🇹🇼TW_309
-      - KR_769
+      - 20934 @WangCai_1
+      - 20931 @WangCai_1
+      - 20933 @WangCai_1
+      - 20937 @WangCai_1
+      - 20935 @WangCai_1
+      - 20940 @WangCai_1
+      - 20932 @WangCai_1
+      - 20936 @WangCai_1
+      - 20913 @WangCai_1
       - AU_43
-      - Relay_🏁ZZ-🇹🇼TW_3579
+      - 20930 @WangCai_1
+      - 20911 @WangCai_1
+      - Relay_🇨🇳CN-🇹🇼TW_308
+      - 20910 @WangCai_1
+      - 20955 @WangCai_1
+      - 20957 @WangCai_1
+      - 20951 @WangCai_1
+      - 20953 @WangCai_1
+      - 20912 @WangCai_1
+      - 20950 @WangCai_1
+      - 20920 @WangCai_1
+      - 20942 @WangCai_1
       - Relay_🇨🇳CN-🇺🇸US_263
-      - US_3051
+      - 20943 @WangCai_1
+      - 20941 @WangCai_1
+      - 20952 @WangCai_1
+      - Relay_🏁ZZ-🇹🇼TW_3579
+      - 20956 @WangCai_1
+      - 20954 @WangCai_1
+      - Relay_🇨🇳CN-🇹🇼TW_309
       - Relay_🇬🇧GB-🇬🇧GB_723
-      - Relay_🇦🇺AU-🇦🇺AU_92
-      - Relay_🇺🇸US-🇷🇺RU_3070
-      - Relay_🇷🇺RU-🇷🇺RU_1714
-      - Relay_🇷🇺RU-🇷🇺RU_1646
-      - Relay_🇬🇧GB-🇬🇧GB_718
-      - Relay_🇺🇸US-🇷🇺RU_3091
-      - LT_1136
-      - Relay_🇩🇪DE-🇩🇪DE_505
-      - NL_1348
-      - NL_1451
-      - NL_1323
-      - NL_1343
-      - NL_1411
-      - NL_1418
-      - NL_1423
-      - NL_1438
-      - NL_1331
-      - NL_1335
-      - NL_1375
-      - NL_1401
-      - NL_1413
-      - NL_1424
-      - NL_1452
-      - NL_1333
-      - NL_1341
-      - NL_1388
-      - NL_1420
-      - NL_1442
-      - NL_1459
-      - Relay_🇩🇪DE-🇩🇪DE_506
-      - NL_1366
-      - NL_1384
-      - NL_1434
-      - NL_1443
-      - NL_1380
-      - NL_1385
-      - NL_1403
-      - NL_1387
-      - NL_1389
-      - NL_1402
-      - NL_1408
       - Relay_🇺🇸US-🇺🇸US_2805
-      - ZZ_3011
-      - PL_1088
-      - Relay_🇦🇺AU-🇦🇺AU_62
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -315,176 +210,113 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇹🇼TW_308
-      - Relay_🇨🇳CN-🇹🇼TW_309
-      - KR_769
+      - 20934 @WangCai_1
+      - 20931 @WangCai_1
+      - 20933 @WangCai_1
+      - 20937 @WangCai_1
+      - 20935 @WangCai_1
+      - 20940 @WangCai_1
+      - 20932 @WangCai_1
+      - 20936 @WangCai_1
+      - 20913 @WangCai_1
       - AU_43
-      - Relay_🏁ZZ-🇹🇼TW_3579
+      - 20930 @WangCai_1
+      - 20911 @WangCai_1
+      - Relay_🇨🇳CN-🇹🇼TW_308
+      - 20910 @WangCai_1
+      - 20955 @WangCai_1
+      - 20957 @WangCai_1
+      - 20951 @WangCai_1
+      - 20953 @WangCai_1
+      - 20912 @WangCai_1
+      - 20950 @WangCai_1
+      - 20920 @WangCai_1
+      - 20942 @WangCai_1
       - Relay_🇨🇳CN-🇺🇸US_263
-      - US_3051
+      - 20943 @WangCai_1
+      - 20941 @WangCai_1
+      - 20952 @WangCai_1
+      - Relay_🏁ZZ-🇹🇼TW_3579
+      - 20956 @WangCai_1
+      - 20954 @WangCai_1
+      - Relay_🇨🇳CN-🇹🇼TW_309
       - Relay_🇬🇧GB-🇬🇧GB_723
-      - Relay_🇦🇺AU-🇦🇺AU_92
-      - Relay_🇺🇸US-🇷🇺RU_3070
-      - Relay_🇷🇺RU-🇷🇺RU_1714
-      - Relay_🇷🇺RU-🇷🇺RU_1646
-      - Relay_🇬🇧GB-🇬🇧GB_718
-      - Relay_🇺🇸US-🇷🇺RU_3091
-      - LT_1136
-      - Relay_🇩🇪DE-🇩🇪DE_505
-      - NL_1348
-      - NL_1451
-      - NL_1323
-      - NL_1343
-      - NL_1411
-      - NL_1418
-      - NL_1423
-      - NL_1438
-      - NL_1331
-      - NL_1335
-      - NL_1375
-      - NL_1401
-      - NL_1413
-      - NL_1424
-      - NL_1452
-      - NL_1333
-      - NL_1341
-      - NL_1388
-      - NL_1420
-      - NL_1442
-      - NL_1459
-      - Relay_🇩🇪DE-🇩🇪DE_506
-      - NL_1366
-      - NL_1384
-      - NL_1434
-      - NL_1443
-      - NL_1380
-      - NL_1385
-      - NL_1403
-      - NL_1387
-      - NL_1389
-      - NL_1402
-      - NL_1408
       - Relay_🇺🇸US-🇺🇸US_2805
-      - ZZ_3011
-      - PL_1088
-      - Relay_🇦🇺AU-🇦🇺AU_62
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_308
-      - Relay_🇨🇳CN-🇹🇼TW_309
-      - KR_769
+      - 20934 @WangCai_1
+      - 20931 @WangCai_1
+      - 20933 @WangCai_1
+      - 20937 @WangCai_1
+      - 20935 @WangCai_1
+      - 20940 @WangCai_1
+      - 20932 @WangCai_1
+      - 20936 @WangCai_1
+      - 20913 @WangCai_1
       - AU_43
-      - Relay_🏁ZZ-🇹🇼TW_3579
+      - 20930 @WangCai_1
+      - 20911 @WangCai_1
+      - Relay_🇨🇳CN-🇹🇼TW_308
+      - 20910 @WangCai_1
+      - 20955 @WangCai_1
+      - 20957 @WangCai_1
+      - 20951 @WangCai_1
+      - 20953 @WangCai_1
+      - 20912 @WangCai_1
+      - 20950 @WangCai_1
+      - 20920 @WangCai_1
+      - 20942 @WangCai_1
       - Relay_🇨🇳CN-🇺🇸US_263
-      - US_3051
+      - 20943 @WangCai_1
+      - 20941 @WangCai_1
+      - 20952 @WangCai_1
+      - Relay_🏁ZZ-🇹🇼TW_3579
+      - 20956 @WangCai_1
+      - 20954 @WangCai_1
+      - Relay_🇨🇳CN-🇹🇼TW_309
       - Relay_🇬🇧GB-🇬🇧GB_723
-      - Relay_🇦🇺AU-🇦🇺AU_92
-      - Relay_🇺🇸US-🇷🇺RU_3070
-      - Relay_🇷🇺RU-🇷🇺RU_1714
-      - Relay_🇷🇺RU-🇷🇺RU_1646
-      - Relay_🇬🇧GB-🇬🇧GB_718
-      - Relay_🇺🇸US-🇷🇺RU_3091
-      - LT_1136
-      - Relay_🇩🇪DE-🇩🇪DE_505
-      - NL_1348
-      - NL_1451
-      - NL_1323
-      - NL_1343
-      - NL_1411
-      - NL_1418
-      - NL_1423
-      - NL_1438
-      - NL_1331
-      - NL_1335
-      - NL_1375
-      - NL_1401
-      - NL_1413
-      - NL_1424
-      - NL_1452
-      - NL_1333
-      - NL_1341
-      - NL_1388
-      - NL_1420
-      - NL_1442
-      - NL_1459
-      - Relay_🇩🇪DE-🇩🇪DE_506
-      - NL_1366
-      - NL_1384
-      - NL_1434
-      - NL_1443
-      - NL_1380
-      - NL_1385
-      - NL_1403
-      - NL_1387
-      - NL_1389
-      - NL_1402
-      - NL_1408
       - Relay_🇺🇸US-🇺🇸US_2805
-      - ZZ_3011
-      - PL_1088
-      - Relay_🇦🇺AU-🇦🇺AU_62
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇹🇼TW_308
-      - Relay_🇨🇳CN-🇹🇼TW_309
-      - KR_769
+      - 20934 @WangCai_1
+      - 20931 @WangCai_1
+      - 20933 @WangCai_1
+      - 20937 @WangCai_1
+      - 20935 @WangCai_1
+      - 20940 @WangCai_1
+      - 20932 @WangCai_1
+      - 20936 @WangCai_1
+      - 20913 @WangCai_1
       - AU_43
-      - Relay_🏁ZZ-🇹🇼TW_3579
+      - 20930 @WangCai_1
+      - 20911 @WangCai_1
+      - Relay_🇨🇳CN-🇹🇼TW_308
+      - 20910 @WangCai_1
+      - 20955 @WangCai_1
+      - 20957 @WangCai_1
+      - 20951 @WangCai_1
+      - 20953 @WangCai_1
+      - 20912 @WangCai_1
+      - 20950 @WangCai_1
+      - 20920 @WangCai_1
+      - 20942 @WangCai_1
       - Relay_🇨🇳CN-🇺🇸US_263
-      - US_3051
+      - 20943 @WangCai_1
+      - 20941 @WangCai_1
+      - 20952 @WangCai_1
+      - Relay_🏁ZZ-🇹🇼TW_3579
+      - 20956 @WangCai_1
+      - 20954 @WangCai_1
+      - Relay_🇨🇳CN-🇹🇼TW_309
       - Relay_🇬🇧GB-🇬🇧GB_723
-      - Relay_🇦🇺AU-🇦🇺AU_92
-      - Relay_🇺🇸US-🇷🇺RU_3070
-      - Relay_🇷🇺RU-🇷🇺RU_1714
-      - Relay_🇷🇺RU-🇷🇺RU_1646
-      - Relay_🇬🇧GB-🇬🇧GB_718
-      - Relay_🇺🇸US-🇷🇺RU_3091
-      - LT_1136
-      - Relay_🇩🇪DE-🇩🇪DE_505
-      - NL_1348
-      - NL_1451
-      - NL_1323
-      - NL_1343
-      - NL_1411
-      - NL_1418
-      - NL_1423
-      - NL_1438
-      - NL_1331
-      - NL_1335
-      - NL_1375
-      - NL_1401
-      - NL_1413
-      - NL_1424
-      - NL_1452
-      - NL_1333
-      - NL_1341
-      - NL_1388
-      - NL_1420
-      - NL_1442
-      - NL_1459
-      - Relay_🇩🇪DE-🇩🇪DE_506
-      - NL_1366
-      - NL_1384
-      - NL_1434
-      - NL_1443
-      - NL_1380
-      - NL_1385
-      - NL_1403
-      - NL_1387
-      - NL_1389
-      - NL_1402
-      - NL_1408
       - Relay_🇺🇸US-🇺🇸US_2805
-      - ZZ_3011
-      - PL_1088
-      - Relay_🇦🇺AU-🇦🇺AU_62
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -500,59 +332,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇹🇼TW_308
-      - Relay_🇨🇳CN-🇹🇼TW_309
-      - KR_769
+      - 20934 @WangCai_1
+      - 20931 @WangCai_1
+      - 20933 @WangCai_1
+      - 20937 @WangCai_1
+      - 20935 @WangCai_1
+      - 20940 @WangCai_1
+      - 20932 @WangCai_1
+      - 20936 @WangCai_1
+      - 20913 @WangCai_1
       - AU_43
-      - Relay_🏁ZZ-🇹🇼TW_3579
+      - 20930 @WangCai_1
+      - 20911 @WangCai_1
+      - Relay_🇨🇳CN-🇹🇼TW_308
+      - 20910 @WangCai_1
+      - 20955 @WangCai_1
+      - 20957 @WangCai_1
+      - 20951 @WangCai_1
+      - 20953 @WangCai_1
+      - 20912 @WangCai_1
+      - 20950 @WangCai_1
+      - 20920 @WangCai_1
+      - 20942 @WangCai_1
       - Relay_🇨🇳CN-🇺🇸US_263
-      - US_3051
+      - 20943 @WangCai_1
+      - 20941 @WangCai_1
+      - 20952 @WangCai_1
+      - Relay_🏁ZZ-🇹🇼TW_3579
+      - 20956 @WangCai_1
+      - 20954 @WangCai_1
+      - Relay_🇨🇳CN-🇹🇼TW_309
       - Relay_🇬🇧GB-🇬🇧GB_723
-      - Relay_🇦🇺AU-🇦🇺AU_92
-      - Relay_🇺🇸US-🇷🇺RU_3070
-      - Relay_🇷🇺RU-🇷🇺RU_1714
-      - Relay_🇷🇺RU-🇷🇺RU_1646
-      - Relay_🇬🇧GB-🇬🇧GB_718
-      - Relay_🇺🇸US-🇷🇺RU_3091
-      - LT_1136
-      - Relay_🇩🇪DE-🇩🇪DE_505
-      - NL_1348
-      - NL_1451
-      - NL_1323
-      - NL_1343
-      - NL_1411
-      - NL_1418
-      - NL_1423
-      - NL_1438
-      - NL_1331
-      - NL_1335
-      - NL_1375
-      - NL_1401
-      - NL_1413
-      - NL_1424
-      - NL_1452
-      - NL_1333
-      - NL_1341
-      - NL_1388
-      - NL_1420
-      - NL_1442
-      - NL_1459
-      - Relay_🇩🇪DE-🇩🇪DE_506
-      - NL_1366
-      - NL_1384
-      - NL_1434
-      - NL_1443
-      - NL_1380
-      - NL_1385
-      - NL_1403
-      - NL_1387
-      - NL_1389
-      - NL_1402
-      - NL_1408
       - Relay_🇺🇸US-🇺🇸US_2805
-      - ZZ_3011
-      - PL_1088
-      - Relay_🇦🇺AU-🇦🇺AU_62
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
