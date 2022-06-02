@@ -5,151 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 20934 @WangCai_1, server: 121.204.247.86, port: 20934, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20931 @WangCai_1, server: 121.204.247.86, port: 20931, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20933 @WangCai_1, server: 121.204.247.86, port: 20933, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20937 @WangCai_1, server: 121.204.247.86, port: 20937, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20935 @WangCai_1, server: 121.204.247.86, port: 20935, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20940 @WangCai_1, server: 121.204.247.86, port: 20940, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20932 @WangCai_1, server: 121.204.247.86, port: 20932, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20936 @WangCai_1, server: 121.204.247.86, port: 20936, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20913 @WangCai_1, server: 121.204.247.86, port: 20913, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: AU_43, server: 43.200.6.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 20930 @WangCai_1, server: 121.204.247.86, port: 20930, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20911 @WangCai_1, server: 121.204.247.86, port: 20911, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_308, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: 20910 @WangCai_1, server: 121.204.247.86, port: 20910, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20955 @WangCai_1, server: 121.204.247.86, port: 20955, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20957 @WangCai_1, server: 121.204.247.86, port: 20957, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20951 @WangCai_1, server: 121.204.247.86, port: 20951, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20953 @WangCai_1, server: 121.204.247.86, port: 20953, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20912 @WangCai_1, server: 121.204.247.86, port: 20912, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20950 @WangCai_1, server: 121.204.247.86, port: 20950, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20920 @WangCai_1, server: 121.204.247.86, port: 20920, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20942 @WangCai_1, server: 121.204.247.86, port: 20942, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_263, server: dajbxus.naikonode.top, port: 15105, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
-  - {name: 20943 @WangCai_1, server: 121.204.247.86, port: 20943, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20941 @WangCai_1, server: 121.204.247.86, port: 20941, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20952 @WangCai_1, server: 121.204.247.86, port: 20952, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: Relay_🏁ZZ-🇹🇼TW_3579, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: 20956 @WangCai_1, server: 121.204.247.86, port: 20956, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: 20954 @WangCai_1, server: 121.204.247.86, port: 20954, type: ss, cipher: aes-256-gcm, password: 26685757-d050-41a7-a200-d044229c28be, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_309, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_723, server: s3.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2805, server: jp2.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, sni: jp2.trojan.tel, skip-cert-verify: true, udp: true}
+  - {name: ZZ_2766, server: 134.195.196.231, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: AU_38, server: 185.167.116.253, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: AU_25, server: 185.167.116.253, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
+  - {name: ZZ_2772, server: 134.195.196.231, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_393, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: AU_24, server: 185.167.116.253, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: LT_933, server: 213.183.53.208, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: LT_657, server: 213.183.53.208, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: ZZ_2806, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_3046, server: 169.197.142.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: GB_571, server: 152.89.210.105, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: ZZ_2725, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 20934 @WangCai_1
-      - 20931 @WangCai_1
-      - 20933 @WangCai_1
-      - 20937 @WangCai_1
-      - 20935 @WangCai_1
-      - 20940 @WangCai_1
-      - 20932 @WangCai_1
-      - 20936 @WangCai_1
-      - 20913 @WangCai_1
-      - AU_43
-      - 20930 @WangCai_1
-      - 20911 @WangCai_1
-      - Relay_🇨🇳CN-🇹🇼TW_308
-      - 20910 @WangCai_1
-      - 20955 @WangCai_1
-      - 20957 @WangCai_1
-      - 20951 @WangCai_1
-      - 20953 @WangCai_1
-      - 20912 @WangCai_1
-      - 20950 @WangCai_1
-      - 20920 @WangCai_1
-      - 20942 @WangCai_1
-      - Relay_🇨🇳CN-🇺🇸US_263
-      - 20943 @WangCai_1
-      - 20941 @WangCai_1
-      - 20952 @WangCai_1
-      - Relay_🏁ZZ-🇹🇼TW_3579
-      - 20956 @WangCai_1
-      - 20954 @WangCai_1
-      - Relay_🇨🇳CN-🇹🇼TW_309
-      - Relay_🇬🇧GB-🇬🇧GB_723
-      - Relay_🇺🇸US-🇺🇸US_2805
+      - ZZ_2766
+      - AU_38
+      - AU_25
+      - ZZ_2772
+      - Relay_🇩🇪DE-🇬🇧GB_393
+      - AU_24
+      - LT_933
+      - LT_657
+      - ZZ_2806
+      - ZZ_3046
+      - GB_571
+      - ZZ_2725
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 20934 @WangCai_1
-      - 20931 @WangCai_1
-      - 20933 @WangCai_1
-      - 20937 @WangCai_1
-      - 20935 @WangCai_1
-      - 20940 @WangCai_1
-      - 20932 @WangCai_1
-      - 20936 @WangCai_1
-      - 20913 @WangCai_1
-      - AU_43
-      - 20930 @WangCai_1
-      - 20911 @WangCai_1
-      - Relay_🇨🇳CN-🇹🇼TW_308
-      - 20910 @WangCai_1
-      - 20955 @WangCai_1
-      - 20957 @WangCai_1
-      - 20951 @WangCai_1
-      - 20953 @WangCai_1
-      - 20912 @WangCai_1
-      - 20950 @WangCai_1
-      - 20920 @WangCai_1
-      - 20942 @WangCai_1
-      - Relay_🇨🇳CN-🇺🇸US_263
-      - 20943 @WangCai_1
-      - 20941 @WangCai_1
-      - 20952 @WangCai_1
-      - Relay_🏁ZZ-🇹🇼TW_3579
-      - 20956 @WangCai_1
-      - 20954 @WangCai_1
-      - Relay_🇨🇳CN-🇹🇼TW_309
-      - Relay_🇬🇧GB-🇬🇧GB_723
-      - Relay_🇺🇸US-🇺🇸US_2805
+      - ZZ_2766
+      - AU_38
+      - AU_25
+      - ZZ_2772
+      - Relay_🇩🇪DE-🇬🇧GB_393
+      - AU_24
+      - LT_933
+      - LT_657
+      - ZZ_2806
+      - ZZ_3046
+      - GB_571
+      - ZZ_2725
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 20934 @WangCai_1
-      - 20931 @WangCai_1
-      - 20933 @WangCai_1
-      - 20937 @WangCai_1
-      - 20935 @WangCai_1
-      - 20940 @WangCai_1
-      - 20932 @WangCai_1
-      - 20936 @WangCai_1
-      - 20913 @WangCai_1
-      - AU_43
-      - 20930 @WangCai_1
-      - 20911 @WangCai_1
-      - Relay_🇨🇳CN-🇹🇼TW_308
-      - 20910 @WangCai_1
-      - 20955 @WangCai_1
-      - 20957 @WangCai_1
-      - 20951 @WangCai_1
-      - 20953 @WangCai_1
-      - 20912 @WangCai_1
-      - 20950 @WangCai_1
-      - 20920 @WangCai_1
-      - 20942 @WangCai_1
-      - Relay_🇨🇳CN-🇺🇸US_263
-      - 20943 @WangCai_1
-      - 20941 @WangCai_1
-      - 20952 @WangCai_1
-      - Relay_🏁ZZ-🇹🇼TW_3579
-      - 20956 @WangCai_1
-      - 20954 @WangCai_1
-      - Relay_🇨🇳CN-🇹🇼TW_309
-      - Relay_🇬🇧GB-🇬🇧GB_723
-      - Relay_🇺🇸US-🇺🇸US_2805
+      - ZZ_2766
+      - AU_38
+      - AU_25
+      - ZZ_2772
+      - Relay_🇩🇪DE-🇬🇧GB_393
+      - AU_24
+      - LT_933
+      - LT_657
+      - ZZ_2806
+      - ZZ_3046
+      - GB_571
+      - ZZ_2725
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -168,38 +88,18 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 20934 @WangCai_1
-      - 20931 @WangCai_1
-      - 20933 @WangCai_1
-      - 20937 @WangCai_1
-      - 20935 @WangCai_1
-      - 20940 @WangCai_1
-      - 20932 @WangCai_1
-      - 20936 @WangCai_1
-      - 20913 @WangCai_1
-      - AU_43
-      - 20930 @WangCai_1
-      - 20911 @WangCai_1
-      - Relay_🇨🇳CN-🇹🇼TW_308
-      - 20910 @WangCai_1
-      - 20955 @WangCai_1
-      - 20957 @WangCai_1
-      - 20951 @WangCai_1
-      - 20953 @WangCai_1
-      - 20912 @WangCai_1
-      - 20950 @WangCai_1
-      - 20920 @WangCai_1
-      - 20942 @WangCai_1
-      - Relay_🇨🇳CN-🇺🇸US_263
-      - 20943 @WangCai_1
-      - 20941 @WangCai_1
-      - 20952 @WangCai_1
-      - Relay_🏁ZZ-🇹🇼TW_3579
-      - 20956 @WangCai_1
-      - 20954 @WangCai_1
-      - Relay_🇨🇳CN-🇹🇼TW_309
-      - Relay_🇬🇧GB-🇬🇧GB_723
-      - Relay_🇺🇸US-🇺🇸US_2805
+      - ZZ_2766
+      - AU_38
+      - AU_25
+      - ZZ_2772
+      - Relay_🇩🇪DE-🇬🇧GB_393
+      - AU_24
+      - LT_933
+      - LT_657
+      - ZZ_2806
+      - ZZ_3046
+      - GB_571
+      - ZZ_2725
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -210,113 +110,53 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 20934 @WangCai_1
-      - 20931 @WangCai_1
-      - 20933 @WangCai_1
-      - 20937 @WangCai_1
-      - 20935 @WangCai_1
-      - 20940 @WangCai_1
-      - 20932 @WangCai_1
-      - 20936 @WangCai_1
-      - 20913 @WangCai_1
-      - AU_43
-      - 20930 @WangCai_1
-      - 20911 @WangCai_1
-      - Relay_🇨🇳CN-🇹🇼TW_308
-      - 20910 @WangCai_1
-      - 20955 @WangCai_1
-      - 20957 @WangCai_1
-      - 20951 @WangCai_1
-      - 20953 @WangCai_1
-      - 20912 @WangCai_1
-      - 20950 @WangCai_1
-      - 20920 @WangCai_1
-      - 20942 @WangCai_1
-      - Relay_🇨🇳CN-🇺🇸US_263
-      - 20943 @WangCai_1
-      - 20941 @WangCai_1
-      - 20952 @WangCai_1
-      - Relay_🏁ZZ-🇹🇼TW_3579
-      - 20956 @WangCai_1
-      - 20954 @WangCai_1
-      - Relay_🇨🇳CN-🇹🇼TW_309
-      - Relay_🇬🇧GB-🇬🇧GB_723
-      - Relay_🇺🇸US-🇺🇸US_2805
+      - ZZ_2766
+      - AU_38
+      - AU_25
+      - ZZ_2772
+      - Relay_🇩🇪DE-🇬🇧GB_393
+      - AU_24
+      - LT_933
+      - LT_657
+      - ZZ_2806
+      - ZZ_3046
+      - GB_571
+      - ZZ_2725
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 20934 @WangCai_1
-      - 20931 @WangCai_1
-      - 20933 @WangCai_1
-      - 20937 @WangCai_1
-      - 20935 @WangCai_1
-      - 20940 @WangCai_1
-      - 20932 @WangCai_1
-      - 20936 @WangCai_1
-      - 20913 @WangCai_1
-      - AU_43
-      - 20930 @WangCai_1
-      - 20911 @WangCai_1
-      - Relay_🇨🇳CN-🇹🇼TW_308
-      - 20910 @WangCai_1
-      - 20955 @WangCai_1
-      - 20957 @WangCai_1
-      - 20951 @WangCai_1
-      - 20953 @WangCai_1
-      - 20912 @WangCai_1
-      - 20950 @WangCai_1
-      - 20920 @WangCai_1
-      - 20942 @WangCai_1
-      - Relay_🇨🇳CN-🇺🇸US_263
-      - 20943 @WangCai_1
-      - 20941 @WangCai_1
-      - 20952 @WangCai_1
-      - Relay_🏁ZZ-🇹🇼TW_3579
-      - 20956 @WangCai_1
-      - 20954 @WangCai_1
-      - Relay_🇨🇳CN-🇹🇼TW_309
-      - Relay_🇬🇧GB-🇬🇧GB_723
-      - Relay_🇺🇸US-🇺🇸US_2805
+      - ZZ_2766
+      - AU_38
+      - AU_25
+      - ZZ_2772
+      - Relay_🇩🇪DE-🇬🇧GB_393
+      - AU_24
+      - LT_933
+      - LT_657
+      - ZZ_2806
+      - ZZ_3046
+      - GB_571
+      - ZZ_2725
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 20934 @WangCai_1
-      - 20931 @WangCai_1
-      - 20933 @WangCai_1
-      - 20937 @WangCai_1
-      - 20935 @WangCai_1
-      - 20940 @WangCai_1
-      - 20932 @WangCai_1
-      - 20936 @WangCai_1
-      - 20913 @WangCai_1
-      - AU_43
-      - 20930 @WangCai_1
-      - 20911 @WangCai_1
-      - Relay_🇨🇳CN-🇹🇼TW_308
-      - 20910 @WangCai_1
-      - 20955 @WangCai_1
-      - 20957 @WangCai_1
-      - 20951 @WangCai_1
-      - 20953 @WangCai_1
-      - 20912 @WangCai_1
-      - 20950 @WangCai_1
-      - 20920 @WangCai_1
-      - 20942 @WangCai_1
-      - Relay_🇨🇳CN-🇺🇸US_263
-      - 20943 @WangCai_1
-      - 20941 @WangCai_1
-      - 20952 @WangCai_1
-      - Relay_🏁ZZ-🇹🇼TW_3579
-      - 20956 @WangCai_1
-      - 20954 @WangCai_1
-      - Relay_🇨🇳CN-🇹🇼TW_309
-      - Relay_🇬🇧GB-🇬🇧GB_723
-      - Relay_🇺🇸US-🇺🇸US_2805
+      - ZZ_2766
+      - AU_38
+      - AU_25
+      - ZZ_2772
+      - Relay_🇩🇪DE-🇬🇧GB_393
+      - AU_24
+      - LT_933
+      - LT_657
+      - ZZ_2806
+      - ZZ_3046
+      - GB_571
+      - ZZ_2725
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -332,38 +172,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 20934 @WangCai_1
-      - 20931 @WangCai_1
-      - 20933 @WangCai_1
-      - 20937 @WangCai_1
-      - 20935 @WangCai_1
-      - 20940 @WangCai_1
-      - 20932 @WangCai_1
-      - 20936 @WangCai_1
-      - 20913 @WangCai_1
-      - AU_43
-      - 20930 @WangCai_1
-      - 20911 @WangCai_1
-      - Relay_🇨🇳CN-🇹🇼TW_308
-      - 20910 @WangCai_1
-      - 20955 @WangCai_1
-      - 20957 @WangCai_1
-      - 20951 @WangCai_1
-      - 20953 @WangCai_1
-      - 20912 @WangCai_1
-      - 20950 @WangCai_1
-      - 20920 @WangCai_1
-      - 20942 @WangCai_1
-      - Relay_🇨🇳CN-🇺🇸US_263
-      - 20943 @WangCai_1
-      - 20941 @WangCai_1
-      - 20952 @WangCai_1
-      - Relay_🏁ZZ-🇹🇼TW_3579
-      - 20956 @WangCai_1
-      - 20954 @WangCai_1
-      - Relay_🇨🇳CN-🇹🇼TW_309
-      - Relay_🇬🇧GB-🇬🇧GB_723
-      - Relay_🇺🇸US-🇺🇸US_2805
+      - ZZ_2766
+      - AU_38
+      - AU_25
+      - ZZ_2772
+      - Relay_🇩🇪DE-🇬🇧GB_393
+      - AU_24
+      - LT_933
+      - LT_657
+      - ZZ_2806
+      - ZZ_3046
+      - GB_571
+      - ZZ_2725
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
