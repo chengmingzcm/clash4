@@ -5,107 +5,159 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: JP_495, server: 13.114.218.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: Relay_🇩🇪DE-🇬🇧GB_327, server: 212.81.47.12, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇩🇪DE-🇬🇧GB_331, server: 212.81.47.18, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2379, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇺🇸US_2563, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 2, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_1954, server: 172.99.190.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Relay_🇩🇪DE-🇬🇧GB_333, server: 212.81.47.11, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2355, server: u4.anmu.one, port: 16199, type: vmess, uuid: 07ec59da-18ad-4224-8ad9-c5a66b1447a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 3, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管：全网最强白嫖 4, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_361, server: 212.81.47.11, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_357, server: 212.81.47.13, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_363, server: 212.81.47.17, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_364, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_355, server: 212.81.47.18, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_359, server: 212.81.47.16, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_362, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_360, server: 212.81.47.15, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_356, server: 212.81.47.12, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇫🇷FR_292, server: sg-cn.teacher2050.com, port: 43508, type: trojan, password: E44523FE-B9E4-BD49-AEAF-DBABE701D016, sni: sg-cn.teacher2050.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2212, server: us03.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us03.gogogoo.cyou}, udp: true}
+  - {name: _油管：全网最强白嫖, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2247, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_206, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: 21882ea6-235b-4463-93d4-55c7d378857d, sni: 67tw01.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2240, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2221, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus2.0bad.com}, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_353, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2203, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus4.0bad.com}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2245, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: RU_1297, server: 194.156.120.236, port: 8443, type: trojan, password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb, skip-cert-verify: true, udp: true}
+  - {name: DE_323, server: 165.22.73.126, port: 23335, type: ss, cipher: aes-256-cfb, password: 7d99ae502227454ea998d71e4b62a388, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_354, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 3, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2201, server: gcfree1.galaxy-cloud.icu, port: 443, type: vmess, uuid: 856fd239-43aa-499e-b56b-8af235c32fb5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /tDZcCqc, ws-headers: {Host: gcfree1.galaxy-cloud.icu}, udp: true}
+  - {name: _油管：全网最强白嫖 4, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇦🇺AU-🇦🇺AU_119, server: hk64.fans8.xyz, port: 443, type: trojan, password: 21882ea6-235b-4463-93d4-55c7d378857d, sni: hk64.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇰🇷KR_251, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: Relay_🇩🇪DE-🇸🇬SG_335, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇩🇪DE-🇬🇧GB_334, server: 212.81.47.13, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 5, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管：全网最强白嫖 6, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: _油管：全网最强白嫖 7, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: _油管：全网最强白嫖 8, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_2377, server: 107.148.23.159, port: 26969, type: trojan, password: 1f316deb-02e7-4050-acd9-abcb3942fd37, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸 US-🇺🇸US_1511, server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 19222, type: trojan, password: 2b815eb6-3982-4f09-9181-3c02c479d4d1, sni: bai-piao-wang-zhe-iplc12.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇸🇬SG_2378, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇸🇬SG_2242, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇷🇺RU_2206, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_230, server: 14.29.124.174, port: 11011, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_238, server: 14.29.124.168, port: 24073, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_211, server: 14.29.124.174, port: 11050, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP_495
-      - Relay_🇩🇪DE-🇬🇧GB_327
+      - Relay_🇩🇪DE-🇬🇧GB_361
+      - Relay_🇩🇪DE-🇬🇧GB_357
+      - Relay_🇩🇪DE-🇬🇧GB_363
+      - Relay_🇩🇪DE-🇬🇧GB_364
+      - Relay_🇩🇪DE-🇬🇧GB_355
+      - Relay_🇩🇪DE-🇬🇧GB_359
+      - Relay_🇩🇪DE-🇬🇧GB_362
+      - Relay_🇩🇪DE-🇬🇧GB_360
+      - Relay_🇩🇪DE-🇬🇧GB_356
+      - Relay_🇨🇳CN-🇫🇷FR_292
+      - Relay_🇺🇸US-🇺🇸US_2212
       - _油管：全网最强白嫖
-      - Relay_🇩🇪DE-🇬🇧GB_331
-      - Relay_🇺🇸US-🇺🇸US_2379
-      - Pool_🇺🇸US_2563
+      - Relay_🇺🇸US-🇺🇸US_2247
+      - Relay_🇨🇦CA-🇨🇦CA_206
+      - Relay_🇺🇸US-🇺🇸US_2240
+      - Relay_🇺🇸US-🇺🇸US_2221
+      - Relay_🇩🇪DE-🇬🇧GB_353
+      - Relay_🇺🇸US-🇺🇸US_2203
+      - Relay_🇺🇸US-🇺🇸US_2245
       - _油管：全网最强白嫖 2
-      - US_1954
-      - Relay_🇩🇪DE-🇬🇧GB_333
-      - Relay_🇺🇸US-🇺🇸US_2355
+      - RU_1297
+      - DE_323
+      - Relay_🇩🇪DE-🇬🇧GB_354
       - _油管：全网最强白嫖 3
+      - Relay_🇺🇸US-🇺🇸US_2201
       - _油管：全网最强白嫖 4
+      - Relay_🇦🇺AU-🇦🇺AU_119
+      - Relay_🇨🇳CN-🇰🇷KR_251
       - Relay_🇩🇪DE-🇸🇬SG_335
-      - Relay_🇩🇪DE-🇬🇧GB_334
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - US_2377
-      - Relay_🇺🇸 US-🇺🇸US_1511
-      - Relay_🇺🇸US-🇸🇬SG_2378
+      - Relay_🇺🇸US-🇸🇬SG_2242
+      - Relay_🇺🇸US-🇷🇺RU_2206
+      - Relay_🇨🇳CN-🇭🇰HK_230
+      - Relay_🇨🇳CN-🇹🇼TW_238
+      - Relay_🇨🇳CN-🇭🇰HK_211
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - JP_495
-      - Relay_🇩🇪DE-🇬🇧GB_327
+      - Relay_🇩🇪DE-🇬🇧GB_361
+      - Relay_🇩🇪DE-🇬🇧GB_357
+      - Relay_🇩🇪DE-🇬🇧GB_363
+      - Relay_🇩🇪DE-🇬🇧GB_364
+      - Relay_🇩🇪DE-🇬🇧GB_355
+      - Relay_🇩🇪DE-🇬🇧GB_359
+      - Relay_🇩🇪DE-🇬🇧GB_362
+      - Relay_🇩🇪DE-🇬🇧GB_360
+      - Relay_🇩🇪DE-🇬🇧GB_356
+      - Relay_🇨🇳CN-🇫🇷FR_292
+      - Relay_🇺🇸US-🇺🇸US_2212
       - _油管：全网最强白嫖
-      - Relay_🇩🇪DE-🇬🇧GB_331
-      - Relay_🇺🇸US-🇺🇸US_2379
-      - Pool_🇺🇸US_2563
+      - Relay_🇺🇸US-🇺🇸US_2247
+      - Relay_🇨🇦CA-🇨🇦CA_206
+      - Relay_🇺🇸US-🇺🇸US_2240
+      - Relay_🇺🇸US-🇺🇸US_2221
+      - Relay_🇩🇪DE-🇬🇧GB_353
+      - Relay_🇺🇸US-🇺🇸US_2203
+      - Relay_🇺🇸US-🇺🇸US_2245
       - _油管：全网最强白嫖 2
-      - US_1954
-      - Relay_🇩🇪DE-🇬🇧GB_333
-      - Relay_🇺🇸US-🇺🇸US_2355
+      - RU_1297
+      - DE_323
+      - Relay_🇩🇪DE-🇬🇧GB_354
       - _油管：全网最强白嫖 3
+      - Relay_🇺🇸US-🇺🇸US_2201
       - _油管：全网最强白嫖 4
+      - Relay_🇦🇺AU-🇦🇺AU_119
+      - Relay_🇨🇳CN-🇰🇷KR_251
       - Relay_🇩🇪DE-🇸🇬SG_335
-      - Relay_🇩🇪DE-🇬🇧GB_334
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - US_2377
-      - Relay_🇺🇸 US-🇺🇸US_1511
-      - Relay_🇺🇸US-🇸🇬SG_2378
+      - Relay_🇺🇸US-🇸🇬SG_2242
+      - Relay_🇺🇸US-🇷🇺RU_2206
+      - Relay_🇨🇳CN-🇭🇰HK_230
+      - Relay_🇨🇳CN-🇹🇼TW_238
+      - Relay_🇨🇳CN-🇭🇰HK_211
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP_495
-      - Relay_🇩🇪DE-🇬🇧GB_327
+      - Relay_🇩🇪DE-🇬🇧GB_361
+      - Relay_🇩🇪DE-🇬🇧GB_357
+      - Relay_🇩🇪DE-🇬🇧GB_363
+      - Relay_🇩🇪DE-🇬🇧GB_364
+      - Relay_🇩🇪DE-🇬🇧GB_355
+      - Relay_🇩🇪DE-🇬🇧GB_359
+      - Relay_🇩🇪DE-🇬🇧GB_362
+      - Relay_🇩🇪DE-🇬🇧GB_360
+      - Relay_🇩🇪DE-🇬🇧GB_356
+      - Relay_🇨🇳CN-🇫🇷FR_292
+      - Relay_🇺🇸US-🇺🇸US_2212
       - _油管：全网最强白嫖
-      - Relay_🇩🇪DE-🇬🇧GB_331
-      - Relay_🇺🇸US-🇺🇸US_2379
-      - Pool_🇺🇸US_2563
+      - Relay_🇺🇸US-🇺🇸US_2247
+      - Relay_🇨🇦CA-🇨🇦CA_206
+      - Relay_🇺🇸US-🇺🇸US_2240
+      - Relay_🇺🇸US-🇺🇸US_2221
+      - Relay_🇩🇪DE-🇬🇧GB_353
+      - Relay_🇺🇸US-🇺🇸US_2203
+      - Relay_🇺🇸US-🇺🇸US_2245
       - _油管：全网最强白嫖 2
-      - US_1954
-      - Relay_🇩🇪DE-🇬🇧GB_333
-      - Relay_🇺🇸US-🇺🇸US_2355
+      - RU_1297
+      - DE_323
+      - Relay_🇩🇪DE-🇬🇧GB_354
       - _油管：全网最强白嫖 3
+      - Relay_🇺🇸US-🇺🇸US_2201
       - _油管：全网最强白嫖 4
+      - Relay_🇦🇺AU-🇦🇺AU_119
+      - Relay_🇨🇳CN-🇰🇷KR_251
       - Relay_🇩🇪DE-🇸🇬SG_335
-      - Relay_🇩🇪DE-🇬🇧GB_334
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - US_2377
-      - Relay_🇺🇸 US-🇺🇸US_1511
-      - Relay_🇺🇸US-🇸🇬SG_2378
+      - Relay_🇺🇸US-🇸🇬SG_2242
+      - Relay_🇺🇸US-🇷🇺RU_2206
+      - Relay_🇨🇳CN-🇭🇰HK_230
+      - Relay_🇨🇳CN-🇹🇼TW_238
+      - Relay_🇨🇳CN-🇭🇰HK_211
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,27 +176,40 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP_495
-      - Relay_🇩🇪DE-🇬🇧GB_327
+      - Relay_🇩🇪DE-🇬🇧GB_361
+      - Relay_🇩🇪DE-🇬🇧GB_357
+      - Relay_🇩🇪DE-🇬🇧GB_363
+      - Relay_🇩🇪DE-🇬🇧GB_364
+      - Relay_🇩🇪DE-🇬🇧GB_355
+      - Relay_🇩🇪DE-🇬🇧GB_359
+      - Relay_🇩🇪DE-🇬🇧GB_362
+      - Relay_🇩🇪DE-🇬🇧GB_360
+      - Relay_🇩🇪DE-🇬🇧GB_356
+      - Relay_🇨🇳CN-🇫🇷FR_292
+      - Relay_🇺🇸US-🇺🇸US_2212
       - _油管：全网最强白嫖
-      - Relay_🇩🇪DE-🇬🇧GB_331
-      - Relay_🇺🇸US-🇺🇸US_2379
-      - Pool_🇺🇸US_2563
+      - Relay_🇺🇸US-🇺🇸US_2247
+      - Relay_🇨🇦CA-🇨🇦CA_206
+      - Relay_🇺🇸US-🇺🇸US_2240
+      - Relay_🇺🇸US-🇺🇸US_2221
+      - Relay_🇩🇪DE-🇬🇧GB_353
+      - Relay_🇺🇸US-🇺🇸US_2203
+      - Relay_🇺🇸US-🇺🇸US_2245
       - _油管：全网最强白嫖 2
-      - US_1954
-      - Relay_🇩🇪DE-🇬🇧GB_333
-      - Relay_🇺🇸US-🇺🇸US_2355
+      - RU_1297
+      - DE_323
+      - Relay_🇩🇪DE-🇬🇧GB_354
       - _油管：全网最强白嫖 3
+      - Relay_🇺🇸US-🇺🇸US_2201
       - _油管：全网最强白嫖 4
+      - Relay_🇦🇺AU-🇦🇺AU_119
+      - Relay_🇨🇳CN-🇰🇷KR_251
       - Relay_🇩🇪DE-🇸🇬SG_335
-      - Relay_🇩🇪DE-🇬🇧GB_334
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - US_2377
-      - Relay_🇺🇸 US-🇺🇸US_1511
-      - Relay_🇺🇸US-🇸🇬SG_2378
+      - Relay_🇺🇸US-🇸🇬SG_2242
+      - Relay_🇺🇸US-🇷🇺RU_2206
+      - Relay_🇨🇳CN-🇭🇰HK_230
+      - Relay_🇨🇳CN-🇹🇼TW_238
+      - Relay_🇨🇳CN-🇭🇰HK_211
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -155,80 +220,119 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - JP_495
-      - Relay_🇩🇪DE-🇬🇧GB_327
+      - Relay_🇩🇪DE-🇬🇧GB_361
+      - Relay_🇩🇪DE-🇬🇧GB_357
+      - Relay_🇩🇪DE-🇬🇧GB_363
+      - Relay_🇩🇪DE-🇬🇧GB_364
+      - Relay_🇩🇪DE-🇬🇧GB_355
+      - Relay_🇩🇪DE-🇬🇧GB_359
+      - Relay_🇩🇪DE-🇬🇧GB_362
+      - Relay_🇩🇪DE-🇬🇧GB_360
+      - Relay_🇩🇪DE-🇬🇧GB_356
+      - Relay_🇨🇳CN-🇫🇷FR_292
+      - Relay_🇺🇸US-🇺🇸US_2212
       - _油管：全网最强白嫖
-      - Relay_🇩🇪DE-🇬🇧GB_331
-      - Relay_🇺🇸US-🇺🇸US_2379
-      - Pool_🇺🇸US_2563
+      - Relay_🇺🇸US-🇺🇸US_2247
+      - Relay_🇨🇦CA-🇨🇦CA_206
+      - Relay_🇺🇸US-🇺🇸US_2240
+      - Relay_🇺🇸US-🇺🇸US_2221
+      - Relay_🇩🇪DE-🇬🇧GB_353
+      - Relay_🇺🇸US-🇺🇸US_2203
+      - Relay_🇺🇸US-🇺🇸US_2245
       - _油管：全网最强白嫖 2
-      - US_1954
-      - Relay_🇩🇪DE-🇬🇧GB_333
-      - Relay_🇺🇸US-🇺🇸US_2355
+      - RU_1297
+      - DE_323
+      - Relay_🇩🇪DE-🇬🇧GB_354
       - _油管：全网最强白嫖 3
+      - Relay_🇺🇸US-🇺🇸US_2201
       - _油管：全网最强白嫖 4
+      - Relay_🇦🇺AU-🇦🇺AU_119
+      - Relay_🇨🇳CN-🇰🇷KR_251
       - Relay_🇩🇪DE-🇸🇬SG_335
-      - Relay_🇩🇪DE-🇬🇧GB_334
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - US_2377
-      - Relay_🇺🇸 US-🇺🇸US_1511
-      - Relay_🇺🇸US-🇸🇬SG_2378
+      - Relay_🇺🇸US-🇸🇬SG_2242
+      - Relay_🇺🇸US-🇷🇺RU_2206
+      - Relay_🇨🇳CN-🇭🇰HK_230
+      - Relay_🇨🇳CN-🇹🇼TW_238
+      - Relay_🇨🇳CN-🇭🇰HK_211
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - JP_495
-      - Relay_🇩🇪DE-🇬🇧GB_327
+      - Relay_🇩🇪DE-🇬🇧GB_361
+      - Relay_🇩🇪DE-🇬🇧GB_357
+      - Relay_🇩🇪DE-🇬🇧GB_363
+      - Relay_🇩🇪DE-🇬🇧GB_364
+      - Relay_🇩🇪DE-🇬🇧GB_355
+      - Relay_🇩🇪DE-🇬🇧GB_359
+      - Relay_🇩🇪DE-🇬🇧GB_362
+      - Relay_🇩🇪DE-🇬🇧GB_360
+      - Relay_🇩🇪DE-🇬🇧GB_356
+      - Relay_🇨🇳CN-🇫🇷FR_292
+      - Relay_🇺🇸US-🇺🇸US_2212
       - _油管：全网最强白嫖
-      - Relay_🇩🇪DE-🇬🇧GB_331
-      - Relay_🇺🇸US-🇺🇸US_2379
-      - Pool_🇺🇸US_2563
+      - Relay_🇺🇸US-🇺🇸US_2247
+      - Relay_🇨🇦CA-🇨🇦CA_206
+      - Relay_🇺🇸US-🇺🇸US_2240
+      - Relay_🇺🇸US-🇺🇸US_2221
+      - Relay_🇩🇪DE-🇬🇧GB_353
+      - Relay_🇺🇸US-🇺🇸US_2203
+      - Relay_🇺🇸US-🇺🇸US_2245
       - _油管：全网最强白嫖 2
-      - US_1954
-      - Relay_🇩🇪DE-🇬🇧GB_333
-      - Relay_🇺🇸US-🇺🇸US_2355
+      - RU_1297
+      - DE_323
+      - Relay_🇩🇪DE-🇬🇧GB_354
       - _油管：全网最强白嫖 3
+      - Relay_🇺🇸US-🇺🇸US_2201
       - _油管：全网最强白嫖 4
+      - Relay_🇦🇺AU-🇦🇺AU_119
+      - Relay_🇨🇳CN-🇰🇷KR_251
       - Relay_🇩🇪DE-🇸🇬SG_335
-      - Relay_🇩🇪DE-🇬🇧GB_334
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - US_2377
-      - Relay_🇺🇸 US-🇺🇸US_1511
-      - Relay_🇺🇸US-🇸🇬SG_2378
+      - Relay_🇺🇸US-🇸🇬SG_2242
+      - Relay_🇺🇸US-🇷🇺RU_2206
+      - Relay_🇨🇳CN-🇭🇰HK_230
+      - Relay_🇨🇳CN-🇹🇼TW_238
+      - Relay_🇨🇳CN-🇭🇰HK_211
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP_495
-      - Relay_🇩🇪DE-🇬🇧GB_327
+      - Relay_🇩🇪DE-🇬🇧GB_361
+      - Relay_🇩🇪DE-🇬🇧GB_357
+      - Relay_🇩🇪DE-🇬🇧GB_363
+      - Relay_🇩🇪DE-🇬🇧GB_364
+      - Relay_🇩🇪DE-🇬🇧GB_355
+      - Relay_🇩🇪DE-🇬🇧GB_359
+      - Relay_🇩🇪DE-🇬🇧GB_362
+      - Relay_🇩🇪DE-🇬🇧GB_360
+      - Relay_🇩🇪DE-🇬🇧GB_356
+      - Relay_🇨🇳CN-🇫🇷FR_292
+      - Relay_🇺🇸US-🇺🇸US_2212
       - _油管：全网最强白嫖
-      - Relay_🇩🇪DE-🇬🇧GB_331
-      - Relay_🇺🇸US-🇺🇸US_2379
-      - Pool_🇺🇸US_2563
+      - Relay_🇺🇸US-🇺🇸US_2247
+      - Relay_🇨🇦CA-🇨🇦CA_206
+      - Relay_🇺🇸US-🇺🇸US_2240
+      - Relay_🇺🇸US-🇺🇸US_2221
+      - Relay_🇩🇪DE-🇬🇧GB_353
+      - Relay_🇺🇸US-🇺🇸US_2203
+      - Relay_🇺🇸US-🇺🇸US_2245
       - _油管：全网最强白嫖 2
-      - US_1954
-      - Relay_🇩🇪DE-🇬🇧GB_333
-      - Relay_🇺🇸US-🇺🇸US_2355
+      - RU_1297
+      - DE_323
+      - Relay_🇩🇪DE-🇬🇧GB_354
       - _油管：全网最强白嫖 3
+      - Relay_🇺🇸US-🇺🇸US_2201
       - _油管：全网最强白嫖 4
+      - Relay_🇦🇺AU-🇦🇺AU_119
+      - Relay_🇨🇳CN-🇰🇷KR_251
       - Relay_🇩🇪DE-🇸🇬SG_335
-      - Relay_🇩🇪DE-🇬🇧GB_334
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - US_2377
-      - Relay_🇺🇸 US-🇺🇸US_1511
-      - Relay_🇺🇸US-🇸🇬SG_2378
+      - Relay_🇺🇸US-🇸🇬SG_2242
+      - Relay_🇺🇸US-🇷🇺RU_2206
+      - Relay_🇨🇳CN-🇭🇰HK_230
+      - Relay_🇨🇳CN-🇹🇼TW_238
+      - Relay_🇨🇳CN-🇭🇰HK_211
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -244,27 +348,40 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP_495
-      - Relay_🇩🇪DE-🇬🇧GB_327
+      - Relay_🇩🇪DE-🇬🇧GB_361
+      - Relay_🇩🇪DE-🇬🇧GB_357
+      - Relay_🇩🇪DE-🇬🇧GB_363
+      - Relay_🇩🇪DE-🇬🇧GB_364
+      - Relay_🇩🇪DE-🇬🇧GB_355
+      - Relay_🇩🇪DE-🇬🇧GB_359
+      - Relay_🇩🇪DE-🇬🇧GB_362
+      - Relay_🇩🇪DE-🇬🇧GB_360
+      - Relay_🇩🇪DE-🇬🇧GB_356
+      - Relay_🇨🇳CN-🇫🇷FR_292
+      - Relay_🇺🇸US-🇺🇸US_2212
       - _油管：全网最强白嫖
-      - Relay_🇩🇪DE-🇬🇧GB_331
-      - Relay_🇺🇸US-🇺🇸US_2379
-      - Pool_🇺🇸US_2563
+      - Relay_🇺🇸US-🇺🇸US_2247
+      - Relay_🇨🇦CA-🇨🇦CA_206
+      - Relay_🇺🇸US-🇺🇸US_2240
+      - Relay_🇺🇸US-🇺🇸US_2221
+      - Relay_🇩🇪DE-🇬🇧GB_353
+      - Relay_🇺🇸US-🇺🇸US_2203
+      - Relay_🇺🇸US-🇺🇸US_2245
       - _油管：全网最强白嫖 2
-      - US_1954
-      - Relay_🇩🇪DE-🇬🇧GB_333
-      - Relay_🇺🇸US-🇺🇸US_2355
+      - RU_1297
+      - DE_323
+      - Relay_🇩🇪DE-🇬🇧GB_354
       - _油管：全网最强白嫖 3
+      - Relay_🇺🇸US-🇺🇸US_2201
       - _油管：全网最强白嫖 4
+      - Relay_🇦🇺AU-🇦🇺AU_119
+      - Relay_🇨🇳CN-🇰🇷KR_251
       - Relay_🇩🇪DE-🇸🇬SG_335
-      - Relay_🇩🇪DE-🇬🇧GB_334
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - US_2377
-      - Relay_🇺🇸 US-🇺🇸US_1511
-      - Relay_🇺🇸US-🇸🇬SG_2378
+      - Relay_🇺🇸US-🇸🇬SG_2242
+      - Relay_🇺🇸US-🇷🇺RU_2206
+      - Relay_🇨🇳CN-🇭🇰HK_230
+      - Relay_🇨🇳CN-🇹🇼TW_238
+      - Relay_🇨🇳CN-🇭🇰HK_211
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
