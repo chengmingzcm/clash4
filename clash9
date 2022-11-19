@@ -5,247 +5,371 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_78, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_79, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_147, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: FR_212, server: 51.195.136.209, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: MY_476, server: 123.253.32.50, port: 31372, type: vmess, uuid: 678d0d7d-c651-4ae1-ced1-320783565749, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸 US-🇺🇸US_851, server: us.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: us.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: RO_614, server: 185.126.116.123, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: LT_356, server: 213.183.53.198, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: Relay_🇨🇳 CN-🏁ZZ_103, server: hk-hkg-it2-svm-v2.node.inforun.work, port: 13888, type: vmess, uuid: 763b2303-0e16-455e-926d-66d909c3e37b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: hk-hkg-it2-svm-v2.node.inforun.work}, udp: true}
-  - {name: US_832, server: 38.75.136.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: RO_623, server: 185.126.116.119, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe, udp: true}
-  - {name: LT_354, server: 213.183.53.198, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_80, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: RO_616, server: 185.126.116.119, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1406, server: us-sjc-01-v2.jd.cjhh.mom, port: 888, type: vmess, uuid: d0aec6f9-a2d0-4238-893d-73571c4e9cee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: us-sjc-01-v2.jd.cjhh.mom}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇷🇺RU_89, server: yum-y.update.mipglxi.cn, port: 6003, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: LT_352, server: 213.183.53.198, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: US_782, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_101, server: yum-y.update.mipglxi.cn, port: 6029, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: LT_351, server: 213.183.53.198, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: US_967, server: 38.68.135.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_81, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: DE_126, server: 193.108.118.30, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Relay_🇨🇳 CN-🇷🇺RU_85, server: yum-y.update.mipglxi.cn, port: 6004, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: US_969, server: 38.68.135.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇨🇳 CN-🇷🇺RU_86, server: yum-y.update.mipglxi.cn, port: 6002, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: US_767, server: 38.75.136.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Relay_🇨🇳 CN-🇹🇼TW_97, server: yum-y.update.mipglxi.cn, port: 6022, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: US_879, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Relay_🇨🇳 CN-🇷🇺RU_82, server: yum-y.update.mipglxi.cn, port: 6001, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_119, server: tw-tpe-hq-v2.node.inforun.work, port: 10188, type: vmess, uuid: 763b2303-0e16-455e-926d-66d909c3e37b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: tw-tpe-hq-v2.node.inforun.work}, udp: true}
-  - {name: DE_141, server: 165.22.73.126, port: 23335, type: ss, cipher: aes-256-cfb, password: 7d99ae502227454ea998d71e4b62a388, udp: true}
-  - {name: US_768, server: 38.75.136.34, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Relay_🇨🇳 CN-🇷🇺RU_88, server: yum-y.update.mipglxi.cn, port: 6006, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: US_794, server: 38.121.43.65, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Relay_🇨🇳 CN-🇸🇬SG_90, server: yum-y.update.mipglxi.cn, port: 6012, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: Relay_🇨🇳 CN-🇷🇺RU_95, server: yum-y.update.mipglxi.cn, port: 6005, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: Relay_🇨🇳 CN-🇯🇵JP_87, server: yum-y.update.mipglxi.cn, port: 6020, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: Relay_🇨🇳 CN-🇸🇬SG_81, server: yum-y.update.mipglxi.cn, port: 6014, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: Relay_🇨🇳 CN-🇸🇬SG_83, server: yum-y.update.mipglxi.cn, port: 6011, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: Relay_🇨🇳 CN-🇸🇬SG_91, server: yum-y.update.mipglxi.cn, port: 6009, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: Relay_🇨🇳 CN-🇹🇼TW_99, server: yum-y.update.mipglxi.cn, port: 6025, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: US_1401, server: 161.129.34.102, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 161.129.34.102}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_96, server: yum-y.update.mipglxi.cn, port: 6032, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: HK_265, server: 18.167.20.169, port: 8080, type: vmess, uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 18.167.20.169}, udp: true}
-  - {name: NL_553, server: 213.183.59.218, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: Relay_🇨🇳 CN-🇷🇺RU_94, server: yum-y.update.mipglxi.cn, port: 6007, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_73, server: yum-y.update.mipglxi.cn, port: 6028, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_72, server: yum-y.update.mipglxi.cn, port: 6030, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: Relay_🇫🇷 FR-🇫🇷FR_183, server: hk004.369boy.com, port: 33304, type: trojan, password: 8c4b04fd-245a-44c3-87db-5ca76a850e1b, sni: hk004.369boy.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_74, server: yum-y.update.mipglxi.cn, port: 6031, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: US_1031, server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_113, server: 14.29.124.174, port: 11016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_1405, server: 147.139.7.71, port: 888, type: vmess, uuid: 08d6729d-830e-4341-df76-62d3d12e75e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 147.139.7.71}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_84, server: yum-y.update.mipglxi.cn, port: 6027, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: US_793, server: 38.91.107.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Singapore | 04, server: cos-ap-guangzhou.westdatacloud.top, port: 20024, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Singapore | 03, server: cos-ap-guangzhou.westdatacloud.top, port: 20023, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Taiwan | 03, server: cos-ap-guangzhou.westdatacloud.top, port: 20013, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Japan | 02, server: oss-cn-shanghai.westdatacloud.top, port: 20032, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Taiwan | 08, server: cos-ap-guangzhou.westdatacloud.top, port: 20018, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Japan | 01, server: oss-cn-shanghai.westdatacloud.top, port: 20031, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Japan | 08, server: oss-cn-shanghai.westdatacloud.top, port: 20038, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Japan | 06, server: oss-cn-shanghai.westdatacloud.top, port: 20036, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Taiwan | 02, server: cos-ap-guangzhou.westdatacloud.top, port: 20012, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Japan | 03, server: oss-cn-shanghai.westdatacloud.top, port: 20033, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Japan | 07, server: oss-cn-shanghai.westdatacloud.top, port: 20037, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Singapore | 07, server: cos-ap-guangzhou.westdatacloud.top, port: 20027, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Japan | 04, server: oss-cn-shanghai.westdatacloud.top, port: 20034, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Japan | 05, server: oss-cn-shanghai.westdatacloud.top, port: 20035, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Singapore | 02, server: cos-ap-guangzhou.westdatacloud.top, port: 20022, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Taiwan | 08 2, server: cos-ap-guangzhou.westdatacloud.top, port: 20018, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Taiwan | 01, server: cos-ap-guangzhou.westdatacloud.top, port: 20011, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Korea | 01, server: oss-cn-shanghai.westdatacloud.top, port: 20065, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United States | 06, server: oss-cn-shanghai.westdatacloud.top, port: 20046, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United States | 06 2, server: oss-cn-shanghai.westdatacloud.top, port: 20046, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United States | 03, server: oss-cn-shanghai.westdatacloud.top, port: 20043, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United States | 05, server: oss-cn-shanghai.westdatacloud.top, port: 20045, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United States | 08, server: oss-cn-shanghai.westdatacloud.top, port: 20048, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United States | 01, server: oss-cn-shanghai.westdatacloud.top, port: 20041, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United States | 07, server: oss-cn-shanghai.westdatacloud.top, port: 20047, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United States | 04, server: oss-cn-shanghai.westdatacloud.top, port: 20044, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United States | 02, server: oss-cn-shanghai.westdatacloud.top, port: 20042, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Japan | 08 2, server: oss-cn-shanghai.westdatacloud.top, port: 20038, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Canada | 01, server: oss-cn-shanghai.westdatacloud.top, port: 20051, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Vietnam | 01, server: cos-ap-guangzhou.westdatacloud.top, port: 20069, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Japan | 01 2, server: oss-cn-shanghai.westdatacloud.top, port: 20031, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Japan | 04 2, server: oss-cn-shanghai.westdatacloud.top, port: 20034, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Japan | 03 2, server: oss-cn-shanghai.westdatacloud.top, port: 20033, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Taiwan | 05, server: cos-ap-guangzhou.westdatacloud.top, port: 20015, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Taiwan | 06, server: cos-ap-guangzhou.westdatacloud.top, port: 20016, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong | 02, server: cos-ap-guangzhou.westdatacloud.top, port: 20002, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Japan | 05 2, server: oss-cn-shanghai.westdatacloud.top, port: 20035, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Japan | 07 2, server: oss-cn-shanghai.westdatacloud.top, port: 20037, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Taiwan | 05 2, server: cos-ap-guangzhou.westdatacloud.top, port: 20015, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong | 05, server: cos-ap-guangzhou.westdatacloud.top, port: 20005, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Taiwan | 01 2, server: cos-ap-guangzhou.westdatacloud.top, port: 20011, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Taiwan | 02 2, server: cos-ap-guangzhou.westdatacloud.top, port: 20012, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Singapore | 05, server: cos-ap-guangzhou.westdatacloud.top, port: 20025, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Singapore | 02 2, server: cos-ap-guangzhou.westdatacloud.top, port: 20022, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Vietnam | 01 2, server: cos-ap-guangzhou.westdatacloud.top, port: 20069, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong | 06, server: cos-ap-guangzhou.westdatacloud.top, port: 20006, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Japan | 06 2, server: oss-cn-shanghai.westdatacloud.top, port: 20036, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Korea | 01 2, server: oss-cn-shanghai.westdatacloud.top, port: 20065, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United States | 01 2, server: oss-cn-shanghai.westdatacloud.top, port: 20041, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Singapore | 07 2, server: cos-ap-guangzhou.westdatacloud.top, port: 20027, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United States | 07 2, server: oss-cn-shanghai.westdatacloud.top, port: 20047, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United States | 04 2, server: oss-cn-shanghai.westdatacloud.top, port: 20044, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong | 03, server: cos-ap-guangzhou.westdatacloud.top, port: 20003, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United States | 03 2, server: oss-cn-shanghai.westdatacloud.top, port: 20043, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United States | 08 2, server: oss-cn-shanghai.westdatacloud.top, port: 20048, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United States | 02 2, server: oss-cn-shanghai.westdatacloud.top, port: 20042, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United States | 05 2, server: oss-cn-shanghai.westdatacloud.top, port: 20045, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Taiwan | 06 2, server: cos-ap-guangzhou.westdatacloud.top, port: 20016, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong | 07, server: cos-ap-guangzhou.westdatacloud.top, port: 20007, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Canada | 01 2, server: oss-cn-shanghai.westdatacloud.top, port: 20051, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Taiwan | 07, server: cos-ap-guangzhou.westdatacloud.top, port: 20017, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: India | 01, server: cos-ap-guangzhou.westdatacloud.top, port: 20066, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Australia | 01, server: cos-ap-guangzhou.westdatacloud.top, port: 20061, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United Kingdom | 01, server: cos-ap-beijing.westdatacloud.top, port: 20052, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-beijing.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United Kingdom | 02, server: cos-ap-beijing.westdatacloud.top, port: 20053, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-beijing.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Netherlands | 02, server: cos-ap-beijing.westdatacloud.top, port: 20057, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-beijing.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Germany | 01, server: cos-ap-beijing.westdatacloud.top, port: 20054, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-beijing.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Germany | 02, server: cos-ap-beijing.westdatacloud.top, port: 20055, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-beijing.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: United Kingdom | 01 2, server: cos-ap-beijing.westdatacloud.top, port: 20052, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-beijing.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Netherlands | 01, server: cos-ap-beijing.westdatacloud.top, port: 20056, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-beijing.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Turkey | 01, server: cos-ap-beijing.westdatacloud.top, port: 20060, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-beijing.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Turkey | 01 2, server: cos-ap-beijing.westdatacloud.top, port: 20060, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-beijing.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Chile | 01, server: oss-cn-shanghai.westdatacloud.top, port: 20064, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Japan | 02 2, server: oss-cn-shanghai.westdatacloud.top, port: 20032, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Chile | 01 2, server: oss-cn-shanghai.westdatacloud.top, port: 20064, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Argentina | 01, server: oss-cn-shanghai.westdatacloud.top, port: 20062, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Brazil | 01, server: oss-cn-shanghai.westdatacloud.top, port: 20063, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Singapore | 04 2, server: cos-ap-guangzhou.westdatacloud.top, port: 20024, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Singapore | 08, server: cos-ap-guangzhou.westdatacloud.top, port: 20028, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Germany | 02 2, server: cos-ap-beijing.westdatacloud.top, port: 20055, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-beijing.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Brazil | 01 2, server: oss-cn-shanghai.westdatacloud.top, port: 20063, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Italy | 01, server: cos-ap-beijing.westdatacloud.top, port: 20058, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-beijing.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Italy | 01 2, server: cos-ap-beijing.westdatacloud.top, port: 20058, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-beijing.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Thailand | 01, server: cos-ap-guangzhou.westdatacloud.top, port: 20068, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Netherlands | 02 2, server: cos-ap-beijing.westdatacloud.top, port: 20057, type: trojan, password: BE39CECD-1D23-6971-CE50-58BA43711606, sni: cos-ap-beijing.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Argentina | 01 2, server: oss-cn-shanghai.westdatacloud.top, port: 20062, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Spain | 01, server: cos-ap-beijing.westdatacloud.top, port: 20059, type: trojan, password: F1463DBC-89FE-DB8A-D30F-F544DE3EC05D, sni: cos-ap-beijing.westdatacloud.top, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳 CN-🇭🇰HK_78
-      - Relay_🇨🇳 CN-🇭🇰HK_79
-      - Relay_🇨🇳CN-🇹🇼TW_147
-      - FR_212
-      - MY_476
-      - Relay_🇺🇸 US-🇺🇸US_851
-      - RO_614
-      - LT_356
-      - Relay_🇨🇳 CN-🏁ZZ_103
-      - US_832
-      - RO_623
-      - LT_354
-      - Relay_🇨🇳 CN-🇭🇰HK_80
-      - RO_616
-      - Relay_🇺🇸US-🇺🇸US_1406
-      - Relay_🇨🇳 CN-🇷🇺RU_89
-      - LT_352
-      - US_782
-      - Relay_🇨🇳 CN-🇺🇸US_101
-      - LT_351
-      - US_967
-      - Relay_🇨🇳 CN-🇭🇰HK_81
-      - DE_126
-      - Relay_🇨🇳 CN-🇷🇺RU_85
-      - US_969
-      - Relay_🇨🇳 CN-🇷🇺RU_86
-      - US_767
-      - Relay_🇨🇳 CN-🇹🇼TW_97
-      - US_879
-      - Relay_🇨🇳 CN-🇷🇺RU_82
-      - Relay_🇨🇳CN-🇹🇼TW_119
-      - DE_141
-      - US_768
-      - Relay_🇨🇳 CN-🇷🇺RU_88
-      - US_794
-      - Relay_🇨🇳 CN-🇸🇬SG_90
-      - Relay_🇨🇳 CN-🇷🇺RU_95
-      - Relay_🇨🇳 CN-🇯🇵JP_87
-      - Relay_🇨🇳 CN-🇸🇬SG_81
-      - Relay_🇨🇳 CN-🇸🇬SG_83
-      - Relay_🇨🇳 CN-🇸🇬SG_91
-      - Relay_🇨🇳 CN-🇹🇼TW_99
-      - US_1401
-      - Relay_🇨🇳 CN-🇺🇸US_96
-      - HK_265
-      - NL_553
-      - Relay_🇨🇳 CN-🇷🇺RU_94
-      - Relay_🇨🇳 CN-🇺🇸US_73
-      - Relay_🇨🇳 CN-🇺🇸US_72
-      - Relay_🇫🇷 FR-🇫🇷FR_183
-      - Relay_🇨🇳 CN-🇺🇸US_74
-      - US_1031
-      - Relay_🇨🇳CN-🇭🇰HK_113
-      - US_1405
-      - Relay_🇨🇳 CN-🇺🇸US_84
-      - US_793
+      - Singapore | 04
+      - Singapore | 03
+      - Taiwan | 03
+      - Japan | 02
+      - Taiwan | 08
+      - Japan | 01
+      - Japan | 08
+      - Japan | 06
+      - Taiwan | 02
+      - Japan | 03
+      - Japan | 07
+      - Singapore | 07
+      - Japan | 04
+      - Japan | 05
+      - Singapore | 02
+      - Taiwan | 08 2
+      - Taiwan | 01
+      - Korea | 01
+      - United States | 06
+      - United States | 06 2
+      - United States | 03
+      - United States | 05
+      - United States | 08
+      - United States | 01
+      - United States | 07
+      - United States | 04
+      - United States | 02
+      - Japan | 08 2
+      - Canada | 01
+      - Vietnam | 01
+      - Japan | 01 2
+      - Japan | 04 2
+      - Japan | 03 2
+      - Taiwan | 05
+      - Taiwan | 06
+      - Hong Kong | 02
+      - Japan | 05 2
+      - Japan | 07 2
+      - Taiwan | 05 2
+      - Hong Kong | 05
+      - Taiwan | 01 2
+      - Taiwan | 02 2
+      - Singapore | 05
+      - Singapore | 02 2
+      - Vietnam | 01 2
+      - Hong Kong | 06
+      - Japan | 06 2
+      - Korea | 01 2
+      - United States | 01 2
+      - Singapore | 07 2
+      - United States | 07 2
+      - United States | 04 2
+      - Hong Kong | 03
+      - United States | 03 2
+      - United States | 08 2
+      - United States | 02 2
+      - United States | 05 2
+      - Taiwan | 06 2
+      - Hong Kong | 07
+      - Canada | 01 2
+      - Taiwan | 07
+      - India | 01
+      - Australia | 01
+      - United Kingdom | 01
+      - United Kingdom | 02
+      - Netherlands | 02
+      - Germany | 01
+      - Germany | 02
+      - United Kingdom | 01 2
+      - Netherlands | 01
+      - Turkey | 01
+      - Turkey | 01 2
+      - Chile | 01
+      - Japan | 02 2
+      - Chile | 01 2
+      - Argentina | 01
+      - Brazil | 01
+      - Singapore | 04 2
+      - Singapore | 08
+      - Germany | 02 2
+      - Brazil | 01 2
+      - Italy | 01
+      - Italy | 01 2
+      - Thailand | 01
+      - Netherlands | 02 2
+      - Argentina | 01 2
+      - Spain | 01
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳 CN-🇭🇰HK_78
-      - Relay_🇨🇳 CN-🇭🇰HK_79
-      - Relay_🇨🇳CN-🇹🇼TW_147
-      - FR_212
-      - MY_476
-      - Relay_🇺🇸 US-🇺🇸US_851
-      - RO_614
-      - LT_356
-      - Relay_🇨🇳 CN-🏁ZZ_103
-      - US_832
-      - RO_623
-      - LT_354
-      - Relay_🇨🇳 CN-🇭🇰HK_80
-      - RO_616
-      - Relay_🇺🇸US-🇺🇸US_1406
-      - Relay_🇨🇳 CN-🇷🇺RU_89
-      - LT_352
-      - US_782
-      - Relay_🇨🇳 CN-🇺🇸US_101
-      - LT_351
-      - US_967
-      - Relay_🇨🇳 CN-🇭🇰HK_81
-      - DE_126
-      - Relay_🇨🇳 CN-🇷🇺RU_85
-      - US_969
-      - Relay_🇨🇳 CN-🇷🇺RU_86
-      - US_767
-      - Relay_🇨🇳 CN-🇹🇼TW_97
-      - US_879
-      - Relay_🇨🇳 CN-🇷🇺RU_82
-      - Relay_🇨🇳CN-🇹🇼TW_119
-      - DE_141
-      - US_768
-      - Relay_🇨🇳 CN-🇷🇺RU_88
-      - US_794
-      - Relay_🇨🇳 CN-🇸🇬SG_90
-      - Relay_🇨🇳 CN-🇷🇺RU_95
-      - Relay_🇨🇳 CN-🇯🇵JP_87
-      - Relay_🇨🇳 CN-🇸🇬SG_81
-      - Relay_🇨🇳 CN-🇸🇬SG_83
-      - Relay_🇨🇳 CN-🇸🇬SG_91
-      - Relay_🇨🇳 CN-🇹🇼TW_99
-      - US_1401
-      - Relay_🇨🇳 CN-🇺🇸US_96
-      - HK_265
-      - NL_553
-      - Relay_🇨🇳 CN-🇷🇺RU_94
-      - Relay_🇨🇳 CN-🇺🇸US_73
-      - Relay_🇨🇳 CN-🇺🇸US_72
-      - Relay_🇫🇷 FR-🇫🇷FR_183
-      - Relay_🇨🇳 CN-🇺🇸US_74
-      - US_1031
-      - Relay_🇨🇳CN-🇭🇰HK_113
-      - US_1405
-      - Relay_🇨🇳 CN-🇺🇸US_84
-      - US_793
+      - Singapore | 04
+      - Singapore | 03
+      - Taiwan | 03
+      - Japan | 02
+      - Taiwan | 08
+      - Japan | 01
+      - Japan | 08
+      - Japan | 06
+      - Taiwan | 02
+      - Japan | 03
+      - Japan | 07
+      - Singapore | 07
+      - Japan | 04
+      - Japan | 05
+      - Singapore | 02
+      - Taiwan | 08 2
+      - Taiwan | 01
+      - Korea | 01
+      - United States | 06
+      - United States | 06 2
+      - United States | 03
+      - United States | 05
+      - United States | 08
+      - United States | 01
+      - United States | 07
+      - United States | 04
+      - United States | 02
+      - Japan | 08 2
+      - Canada | 01
+      - Vietnam | 01
+      - Japan | 01 2
+      - Japan | 04 2
+      - Japan | 03 2
+      - Taiwan | 05
+      - Taiwan | 06
+      - Hong Kong | 02
+      - Japan | 05 2
+      - Japan | 07 2
+      - Taiwan | 05 2
+      - Hong Kong | 05
+      - Taiwan | 01 2
+      - Taiwan | 02 2
+      - Singapore | 05
+      - Singapore | 02 2
+      - Vietnam | 01 2
+      - Hong Kong | 06
+      - Japan | 06 2
+      - Korea | 01 2
+      - United States | 01 2
+      - Singapore | 07 2
+      - United States | 07 2
+      - United States | 04 2
+      - Hong Kong | 03
+      - United States | 03 2
+      - United States | 08 2
+      - United States | 02 2
+      - United States | 05 2
+      - Taiwan | 06 2
+      - Hong Kong | 07
+      - Canada | 01 2
+      - Taiwan | 07
+      - India | 01
+      - Australia | 01
+      - United Kingdom | 01
+      - United Kingdom | 02
+      - Netherlands | 02
+      - Germany | 01
+      - Germany | 02
+      - United Kingdom | 01 2
+      - Netherlands | 01
+      - Turkey | 01
+      - Turkey | 01 2
+      - Chile | 01
+      - Japan | 02 2
+      - Chile | 01 2
+      - Argentina | 01
+      - Brazil | 01
+      - Singapore | 04 2
+      - Singapore | 08
+      - Germany | 02 2
+      - Brazil | 01 2
+      - Italy | 01
+      - Italy | 01 2
+      - Thailand | 01
+      - Netherlands | 02 2
+      - Argentina | 01 2
+      - Spain | 01
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳 CN-🇭🇰HK_78
-      - Relay_🇨🇳 CN-🇭🇰HK_79
-      - Relay_🇨🇳CN-🇹🇼TW_147
-      - FR_212
-      - MY_476
-      - Relay_🇺🇸 US-🇺🇸US_851
-      - RO_614
-      - LT_356
-      - Relay_🇨🇳 CN-🏁ZZ_103
-      - US_832
-      - RO_623
-      - LT_354
-      - Relay_🇨🇳 CN-🇭🇰HK_80
-      - RO_616
-      - Relay_🇺🇸US-🇺🇸US_1406
-      - Relay_🇨🇳 CN-🇷🇺RU_89
-      - LT_352
-      - US_782
-      - Relay_🇨🇳 CN-🇺🇸US_101
-      - LT_351
-      - US_967
-      - Relay_🇨🇳 CN-🇭🇰HK_81
-      - DE_126
-      - Relay_🇨🇳 CN-🇷🇺RU_85
-      - US_969
-      - Relay_🇨🇳 CN-🇷🇺RU_86
-      - US_767
-      - Relay_🇨🇳 CN-🇹🇼TW_97
-      - US_879
-      - Relay_🇨🇳 CN-🇷🇺RU_82
-      - Relay_🇨🇳CN-🇹🇼TW_119
-      - DE_141
-      - US_768
-      - Relay_🇨🇳 CN-🇷🇺RU_88
-      - US_794
-      - Relay_🇨🇳 CN-🇸🇬SG_90
-      - Relay_🇨🇳 CN-🇷🇺RU_95
-      - Relay_🇨🇳 CN-🇯🇵JP_87
-      - Relay_🇨🇳 CN-🇸🇬SG_81
-      - Relay_🇨🇳 CN-🇸🇬SG_83
-      - Relay_🇨🇳 CN-🇸🇬SG_91
-      - Relay_🇨🇳 CN-🇹🇼TW_99
-      - US_1401
-      - Relay_🇨🇳 CN-🇺🇸US_96
-      - HK_265
-      - NL_553
-      - Relay_🇨🇳 CN-🇷🇺RU_94
-      - Relay_🇨🇳 CN-🇺🇸US_73
-      - Relay_🇨🇳 CN-🇺🇸US_72
-      - Relay_🇫🇷 FR-🇫🇷FR_183
-      - Relay_🇨🇳 CN-🇺🇸US_74
-      - US_1031
-      - Relay_🇨🇳CN-🇭🇰HK_113
-      - US_1405
-      - Relay_🇨🇳 CN-🇺🇸US_84
-      - US_793
+      - Singapore | 04
+      - Singapore | 03
+      - Taiwan | 03
+      - Japan | 02
+      - Taiwan | 08
+      - Japan | 01
+      - Japan | 08
+      - Japan | 06
+      - Taiwan | 02
+      - Japan | 03
+      - Japan | 07
+      - Singapore | 07
+      - Japan | 04
+      - Japan | 05
+      - Singapore | 02
+      - Taiwan | 08 2
+      - Taiwan | 01
+      - Korea | 01
+      - United States | 06
+      - United States | 06 2
+      - United States | 03
+      - United States | 05
+      - United States | 08
+      - United States | 01
+      - United States | 07
+      - United States | 04
+      - United States | 02
+      - Japan | 08 2
+      - Canada | 01
+      - Vietnam | 01
+      - Japan | 01 2
+      - Japan | 04 2
+      - Japan | 03 2
+      - Taiwan | 05
+      - Taiwan | 06
+      - Hong Kong | 02
+      - Japan | 05 2
+      - Japan | 07 2
+      - Taiwan | 05 2
+      - Hong Kong | 05
+      - Taiwan | 01 2
+      - Taiwan | 02 2
+      - Singapore | 05
+      - Singapore | 02 2
+      - Vietnam | 01 2
+      - Hong Kong | 06
+      - Japan | 06 2
+      - Korea | 01 2
+      - United States | 01 2
+      - Singapore | 07 2
+      - United States | 07 2
+      - United States | 04 2
+      - Hong Kong | 03
+      - United States | 03 2
+      - United States | 08 2
+      - United States | 02 2
+      - United States | 05 2
+      - Taiwan | 06 2
+      - Hong Kong | 07
+      - Canada | 01 2
+      - Taiwan | 07
+      - India | 01
+      - Australia | 01
+      - United Kingdom | 01
+      - United Kingdom | 02
+      - Netherlands | 02
+      - Germany | 01
+      - Germany | 02
+      - United Kingdom | 01 2
+      - Netherlands | 01
+      - Turkey | 01
+      - Turkey | 01 2
+      - Chile | 01
+      - Japan | 02 2
+      - Chile | 01 2
+      - Argentina | 01
+      - Brazil | 01
+      - Singapore | 04 2
+      - Singapore | 08
+      - Germany | 02 2
+      - Brazil | 01 2
+      - Italy | 01
+      - Italy | 01 2
+      - Thailand | 01
+      - Netherlands | 02 2
+      - Argentina | 01 2
+      - Spain | 01
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -264,62 +388,93 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳 CN-🇭🇰HK_78
-      - Relay_🇨🇳 CN-🇭🇰HK_79
-      - Relay_🇨🇳CN-🇹🇼TW_147
-      - FR_212
-      - MY_476
-      - Relay_🇺🇸 US-🇺🇸US_851
-      - RO_614
-      - LT_356
-      - Relay_🇨🇳 CN-🏁ZZ_103
-      - US_832
-      - RO_623
-      - LT_354
-      - Relay_🇨🇳 CN-🇭🇰HK_80
-      - RO_616
-      - Relay_🇺🇸US-🇺🇸US_1406
-      - Relay_🇨🇳 CN-🇷🇺RU_89
-      - LT_352
-      - US_782
-      - Relay_🇨🇳 CN-🇺🇸US_101
-      - LT_351
-      - US_967
-      - Relay_🇨🇳 CN-🇭🇰HK_81
-      - DE_126
-      - Relay_🇨🇳 CN-🇷🇺RU_85
-      - US_969
-      - Relay_🇨🇳 CN-🇷🇺RU_86
-      - US_767
-      - Relay_🇨🇳 CN-🇹🇼TW_97
-      - US_879
-      - Relay_🇨🇳 CN-🇷🇺RU_82
-      - Relay_🇨🇳CN-🇹🇼TW_119
-      - DE_141
-      - US_768
-      - Relay_🇨🇳 CN-🇷🇺RU_88
-      - US_794
-      - Relay_🇨🇳 CN-🇸🇬SG_90
-      - Relay_🇨🇳 CN-🇷🇺RU_95
-      - Relay_🇨🇳 CN-🇯🇵JP_87
-      - Relay_🇨🇳 CN-🇸🇬SG_81
-      - Relay_🇨🇳 CN-🇸🇬SG_83
-      - Relay_🇨🇳 CN-🇸🇬SG_91
-      - Relay_🇨🇳 CN-🇹🇼TW_99
-      - US_1401
-      - Relay_🇨🇳 CN-🇺🇸US_96
-      - HK_265
-      - NL_553
-      - Relay_🇨🇳 CN-🇷🇺RU_94
-      - Relay_🇨🇳 CN-🇺🇸US_73
-      - Relay_🇨🇳 CN-🇺🇸US_72
-      - Relay_🇫🇷 FR-🇫🇷FR_183
-      - Relay_🇨🇳 CN-🇺🇸US_74
-      - US_1031
-      - Relay_🇨🇳CN-🇭🇰HK_113
-      - US_1405
-      - Relay_🇨🇳 CN-🇺🇸US_84
-      - US_793
+      - Singapore | 04
+      - Singapore | 03
+      - Taiwan | 03
+      - Japan | 02
+      - Taiwan | 08
+      - Japan | 01
+      - Japan | 08
+      - Japan | 06
+      - Taiwan | 02
+      - Japan | 03
+      - Japan | 07
+      - Singapore | 07
+      - Japan | 04
+      - Japan | 05
+      - Singapore | 02
+      - Taiwan | 08 2
+      - Taiwan | 01
+      - Korea | 01
+      - United States | 06
+      - United States | 06 2
+      - United States | 03
+      - United States | 05
+      - United States | 08
+      - United States | 01
+      - United States | 07
+      - United States | 04
+      - United States | 02
+      - Japan | 08 2
+      - Canada | 01
+      - Vietnam | 01
+      - Japan | 01 2
+      - Japan | 04 2
+      - Japan | 03 2
+      - Taiwan | 05
+      - Taiwan | 06
+      - Hong Kong | 02
+      - Japan | 05 2
+      - Japan | 07 2
+      - Taiwan | 05 2
+      - Hong Kong | 05
+      - Taiwan | 01 2
+      - Taiwan | 02 2
+      - Singapore | 05
+      - Singapore | 02 2
+      - Vietnam | 01 2
+      - Hong Kong | 06
+      - Japan | 06 2
+      - Korea | 01 2
+      - United States | 01 2
+      - Singapore | 07 2
+      - United States | 07 2
+      - United States | 04 2
+      - Hong Kong | 03
+      - United States | 03 2
+      - United States | 08 2
+      - United States | 02 2
+      - United States | 05 2
+      - Taiwan | 06 2
+      - Hong Kong | 07
+      - Canada | 01 2
+      - Taiwan | 07
+      - India | 01
+      - Australia | 01
+      - United Kingdom | 01
+      - United Kingdom | 02
+      - Netherlands | 02
+      - Germany | 01
+      - Germany | 02
+      - United Kingdom | 01 2
+      - Netherlands | 01
+      - Turkey | 01
+      - Turkey | 01 2
+      - Chile | 01
+      - Japan | 02 2
+      - Chile | 01 2
+      - Argentina | 01
+      - Brazil | 01
+      - Singapore | 04 2
+      - Singapore | 08
+      - Germany | 02 2
+      - Brazil | 01 2
+      - Italy | 01
+      - Italy | 01 2
+      - Thailand | 01
+      - Netherlands | 02 2
+      - Argentina | 01 2
+      - Spain | 01
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -330,185 +485,278 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳 CN-🇭🇰HK_78
-      - Relay_🇨🇳 CN-🇭🇰HK_79
-      - Relay_🇨🇳CN-🇹🇼TW_147
-      - FR_212
-      - MY_476
-      - Relay_🇺🇸 US-🇺🇸US_851
-      - RO_614
-      - LT_356
-      - Relay_🇨🇳 CN-🏁ZZ_103
-      - US_832
-      - RO_623
-      - LT_354
-      - Relay_🇨🇳 CN-🇭🇰HK_80
-      - RO_616
-      - Relay_🇺🇸US-🇺🇸US_1406
-      - Relay_🇨🇳 CN-🇷🇺RU_89
-      - LT_352
-      - US_782
-      - Relay_🇨🇳 CN-🇺🇸US_101
-      - LT_351
-      - US_967
-      - Relay_🇨🇳 CN-🇭🇰HK_81
-      - DE_126
-      - Relay_🇨🇳 CN-🇷🇺RU_85
-      - US_969
-      - Relay_🇨🇳 CN-🇷🇺RU_86
-      - US_767
-      - Relay_🇨🇳 CN-🇹🇼TW_97
-      - US_879
-      - Relay_🇨🇳 CN-🇷🇺RU_82
-      - Relay_🇨🇳CN-🇹🇼TW_119
-      - DE_141
-      - US_768
-      - Relay_🇨🇳 CN-🇷🇺RU_88
-      - US_794
-      - Relay_🇨🇳 CN-🇸🇬SG_90
-      - Relay_🇨🇳 CN-🇷🇺RU_95
-      - Relay_🇨🇳 CN-🇯🇵JP_87
-      - Relay_🇨🇳 CN-🇸🇬SG_81
-      - Relay_🇨🇳 CN-🇸🇬SG_83
-      - Relay_🇨🇳 CN-🇸🇬SG_91
-      - Relay_🇨🇳 CN-🇹🇼TW_99
-      - US_1401
-      - Relay_🇨🇳 CN-🇺🇸US_96
-      - HK_265
-      - NL_553
-      - Relay_🇨🇳 CN-🇷🇺RU_94
-      - Relay_🇨🇳 CN-🇺🇸US_73
-      - Relay_🇨🇳 CN-🇺🇸US_72
-      - Relay_🇫🇷 FR-🇫🇷FR_183
-      - Relay_🇨🇳 CN-🇺🇸US_74
-      - US_1031
-      - Relay_🇨🇳CN-🇭🇰HK_113
-      - US_1405
-      - Relay_🇨🇳 CN-🇺🇸US_84
-      - US_793
+      - Singapore | 04
+      - Singapore | 03
+      - Taiwan | 03
+      - Japan | 02
+      - Taiwan | 08
+      - Japan | 01
+      - Japan | 08
+      - Japan | 06
+      - Taiwan | 02
+      - Japan | 03
+      - Japan | 07
+      - Singapore | 07
+      - Japan | 04
+      - Japan | 05
+      - Singapore | 02
+      - Taiwan | 08 2
+      - Taiwan | 01
+      - Korea | 01
+      - United States | 06
+      - United States | 06 2
+      - United States | 03
+      - United States | 05
+      - United States | 08
+      - United States | 01
+      - United States | 07
+      - United States | 04
+      - United States | 02
+      - Japan | 08 2
+      - Canada | 01
+      - Vietnam | 01
+      - Japan | 01 2
+      - Japan | 04 2
+      - Japan | 03 2
+      - Taiwan | 05
+      - Taiwan | 06
+      - Hong Kong | 02
+      - Japan | 05 2
+      - Japan | 07 2
+      - Taiwan | 05 2
+      - Hong Kong | 05
+      - Taiwan | 01 2
+      - Taiwan | 02 2
+      - Singapore | 05
+      - Singapore | 02 2
+      - Vietnam | 01 2
+      - Hong Kong | 06
+      - Japan | 06 2
+      - Korea | 01 2
+      - United States | 01 2
+      - Singapore | 07 2
+      - United States | 07 2
+      - United States | 04 2
+      - Hong Kong | 03
+      - United States | 03 2
+      - United States | 08 2
+      - United States | 02 2
+      - United States | 05 2
+      - Taiwan | 06 2
+      - Hong Kong | 07
+      - Canada | 01 2
+      - Taiwan | 07
+      - India | 01
+      - Australia | 01
+      - United Kingdom | 01
+      - United Kingdom | 02
+      - Netherlands | 02
+      - Germany | 01
+      - Germany | 02
+      - United Kingdom | 01 2
+      - Netherlands | 01
+      - Turkey | 01
+      - Turkey | 01 2
+      - Chile | 01
+      - Japan | 02 2
+      - Chile | 01 2
+      - Argentina | 01
+      - Brazil | 01
+      - Singapore | 04 2
+      - Singapore | 08
+      - Germany | 02 2
+      - Brazil | 01 2
+      - Italy | 01
+      - Italy | 01 2
+      - Thailand | 01
+      - Netherlands | 02 2
+      - Argentina | 01 2
+      - Spain | 01
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳 CN-🇭🇰HK_78
-      - Relay_🇨🇳 CN-🇭🇰HK_79
-      - Relay_🇨🇳CN-🇹🇼TW_147
-      - FR_212
-      - MY_476
-      - Relay_🇺🇸 US-🇺🇸US_851
-      - RO_614
-      - LT_356
-      - Relay_🇨🇳 CN-🏁ZZ_103
-      - US_832
-      - RO_623
-      - LT_354
-      - Relay_🇨🇳 CN-🇭🇰HK_80
-      - RO_616
-      - Relay_🇺🇸US-🇺🇸US_1406
-      - Relay_🇨🇳 CN-🇷🇺RU_89
-      - LT_352
-      - US_782
-      - Relay_🇨🇳 CN-🇺🇸US_101
-      - LT_351
-      - US_967
-      - Relay_🇨🇳 CN-🇭🇰HK_81
-      - DE_126
-      - Relay_🇨🇳 CN-🇷🇺RU_85
-      - US_969
-      - Relay_🇨🇳 CN-🇷🇺RU_86
-      - US_767
-      - Relay_🇨🇳 CN-🇹🇼TW_97
-      - US_879
-      - Relay_🇨🇳 CN-🇷🇺RU_82
-      - Relay_🇨🇳CN-🇹🇼TW_119
-      - DE_141
-      - US_768
-      - Relay_🇨🇳 CN-🇷🇺RU_88
-      - US_794
-      - Relay_🇨🇳 CN-🇸🇬SG_90
-      - Relay_🇨🇳 CN-🇷🇺RU_95
-      - Relay_🇨🇳 CN-🇯🇵JP_87
-      - Relay_🇨🇳 CN-🇸🇬SG_81
-      - Relay_🇨🇳 CN-🇸🇬SG_83
-      - Relay_🇨🇳 CN-🇸🇬SG_91
-      - Relay_🇨🇳 CN-🇹🇼TW_99
-      - US_1401
-      - Relay_🇨🇳 CN-🇺🇸US_96
-      - HK_265
-      - NL_553
-      - Relay_🇨🇳 CN-🇷🇺RU_94
-      - Relay_🇨🇳 CN-🇺🇸US_73
-      - Relay_🇨🇳 CN-🇺🇸US_72
-      - Relay_🇫🇷 FR-🇫🇷FR_183
-      - Relay_🇨🇳 CN-🇺🇸US_74
-      - US_1031
-      - Relay_🇨🇳CN-🇭🇰HK_113
-      - US_1405
-      - Relay_🇨🇳 CN-🇺🇸US_84
-      - US_793
+      - Singapore | 04
+      - Singapore | 03
+      - Taiwan | 03
+      - Japan | 02
+      - Taiwan | 08
+      - Japan | 01
+      - Japan | 08
+      - Japan | 06
+      - Taiwan | 02
+      - Japan | 03
+      - Japan | 07
+      - Singapore | 07
+      - Japan | 04
+      - Japan | 05
+      - Singapore | 02
+      - Taiwan | 08 2
+      - Taiwan | 01
+      - Korea | 01
+      - United States | 06
+      - United States | 06 2
+      - United States | 03
+      - United States | 05
+      - United States | 08
+      - United States | 01
+      - United States | 07
+      - United States | 04
+      - United States | 02
+      - Japan | 08 2
+      - Canada | 01
+      - Vietnam | 01
+      - Japan | 01 2
+      - Japan | 04 2
+      - Japan | 03 2
+      - Taiwan | 05
+      - Taiwan | 06
+      - Hong Kong | 02
+      - Japan | 05 2
+      - Japan | 07 2
+      - Taiwan | 05 2
+      - Hong Kong | 05
+      - Taiwan | 01 2
+      - Taiwan | 02 2
+      - Singapore | 05
+      - Singapore | 02 2
+      - Vietnam | 01 2
+      - Hong Kong | 06
+      - Japan | 06 2
+      - Korea | 01 2
+      - United States | 01 2
+      - Singapore | 07 2
+      - United States | 07 2
+      - United States | 04 2
+      - Hong Kong | 03
+      - United States | 03 2
+      - United States | 08 2
+      - United States | 02 2
+      - United States | 05 2
+      - Taiwan | 06 2
+      - Hong Kong | 07
+      - Canada | 01 2
+      - Taiwan | 07
+      - India | 01
+      - Australia | 01
+      - United Kingdom | 01
+      - United Kingdom | 02
+      - Netherlands | 02
+      - Germany | 01
+      - Germany | 02
+      - United Kingdom | 01 2
+      - Netherlands | 01
+      - Turkey | 01
+      - Turkey | 01 2
+      - Chile | 01
+      - Japan | 02 2
+      - Chile | 01 2
+      - Argentina | 01
+      - Brazil | 01
+      - Singapore | 04 2
+      - Singapore | 08
+      - Germany | 02 2
+      - Brazil | 01 2
+      - Italy | 01
+      - Italy | 01 2
+      - Thailand | 01
+      - Netherlands | 02 2
+      - Argentina | 01 2
+      - Spain | 01
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳 CN-🇭🇰HK_78
-      - Relay_🇨🇳 CN-🇭🇰HK_79
-      - Relay_🇨🇳CN-🇹🇼TW_147
-      - FR_212
-      - MY_476
-      - Relay_🇺🇸 US-🇺🇸US_851
-      - RO_614
-      - LT_356
-      - Relay_🇨🇳 CN-🏁ZZ_103
-      - US_832
-      - RO_623
-      - LT_354
-      - Relay_🇨🇳 CN-🇭🇰HK_80
-      - RO_616
-      - Relay_🇺🇸US-🇺🇸US_1406
-      - Relay_🇨🇳 CN-🇷🇺RU_89
-      - LT_352
-      - US_782
-      - Relay_🇨🇳 CN-🇺🇸US_101
-      - LT_351
-      - US_967
-      - Relay_🇨🇳 CN-🇭🇰HK_81
-      - DE_126
-      - Relay_🇨🇳 CN-🇷🇺RU_85
-      - US_969
-      - Relay_🇨🇳 CN-🇷🇺RU_86
-      - US_767
-      - Relay_🇨🇳 CN-🇹🇼TW_97
-      - US_879
-      - Relay_🇨🇳 CN-🇷🇺RU_82
-      - Relay_🇨🇳CN-🇹🇼TW_119
-      - DE_141
-      - US_768
-      - Relay_🇨🇳 CN-🇷🇺RU_88
-      - US_794
-      - Relay_🇨🇳 CN-🇸🇬SG_90
-      - Relay_🇨🇳 CN-🇷🇺RU_95
-      - Relay_🇨🇳 CN-🇯🇵JP_87
-      - Relay_🇨🇳 CN-🇸🇬SG_81
-      - Relay_🇨🇳 CN-🇸🇬SG_83
-      - Relay_🇨🇳 CN-🇸🇬SG_91
-      - Relay_🇨🇳 CN-🇹🇼TW_99
-      - US_1401
-      - Relay_🇨🇳 CN-🇺🇸US_96
-      - HK_265
-      - NL_553
-      - Relay_🇨🇳 CN-🇷🇺RU_94
-      - Relay_🇨🇳 CN-🇺🇸US_73
-      - Relay_🇨🇳 CN-🇺🇸US_72
-      - Relay_🇫🇷 FR-🇫🇷FR_183
-      - Relay_🇨🇳 CN-🇺🇸US_74
-      - US_1031
-      - Relay_🇨🇳CN-🇭🇰HK_113
-      - US_1405
-      - Relay_🇨🇳 CN-🇺🇸US_84
-      - US_793
+      - Singapore | 04
+      - Singapore | 03
+      - Taiwan | 03
+      - Japan | 02
+      - Taiwan | 08
+      - Japan | 01
+      - Japan | 08
+      - Japan | 06
+      - Taiwan | 02
+      - Japan | 03
+      - Japan | 07
+      - Singapore | 07
+      - Japan | 04
+      - Japan | 05
+      - Singapore | 02
+      - Taiwan | 08 2
+      - Taiwan | 01
+      - Korea | 01
+      - United States | 06
+      - United States | 06 2
+      - United States | 03
+      - United States | 05
+      - United States | 08
+      - United States | 01
+      - United States | 07
+      - United States | 04
+      - United States | 02
+      - Japan | 08 2
+      - Canada | 01
+      - Vietnam | 01
+      - Japan | 01 2
+      - Japan | 04 2
+      - Japan | 03 2
+      - Taiwan | 05
+      - Taiwan | 06
+      - Hong Kong | 02
+      - Japan | 05 2
+      - Japan | 07 2
+      - Taiwan | 05 2
+      - Hong Kong | 05
+      - Taiwan | 01 2
+      - Taiwan | 02 2
+      - Singapore | 05
+      - Singapore | 02 2
+      - Vietnam | 01 2
+      - Hong Kong | 06
+      - Japan | 06 2
+      - Korea | 01 2
+      - United States | 01 2
+      - Singapore | 07 2
+      - United States | 07 2
+      - United States | 04 2
+      - Hong Kong | 03
+      - United States | 03 2
+      - United States | 08 2
+      - United States | 02 2
+      - United States | 05 2
+      - Taiwan | 06 2
+      - Hong Kong | 07
+      - Canada | 01 2
+      - Taiwan | 07
+      - India | 01
+      - Australia | 01
+      - United Kingdom | 01
+      - United Kingdom | 02
+      - Netherlands | 02
+      - Germany | 01
+      - Germany | 02
+      - United Kingdom | 01 2
+      - Netherlands | 01
+      - Turkey | 01
+      - Turkey | 01 2
+      - Chile | 01
+      - Japan | 02 2
+      - Chile | 01 2
+      - Argentina | 01
+      - Brazil | 01
+      - Singapore | 04 2
+      - Singapore | 08
+      - Germany | 02 2
+      - Brazil | 01 2
+      - Italy | 01
+      - Italy | 01 2
+      - Thailand | 01
+      - Netherlands | 02 2
+      - Argentina | 01 2
+      - Spain | 01
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -524,62 +772,93 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳 CN-🇭🇰HK_78
-      - Relay_🇨🇳 CN-🇭🇰HK_79
-      - Relay_🇨🇳CN-🇹🇼TW_147
-      - FR_212
-      - MY_476
-      - Relay_🇺🇸 US-🇺🇸US_851
-      - RO_614
-      - LT_356
-      - Relay_🇨🇳 CN-🏁ZZ_103
-      - US_832
-      - RO_623
-      - LT_354
-      - Relay_🇨🇳 CN-🇭🇰HK_80
-      - RO_616
-      - Relay_🇺🇸US-🇺🇸US_1406
-      - Relay_🇨🇳 CN-🇷🇺RU_89
-      - LT_352
-      - US_782
-      - Relay_🇨🇳 CN-🇺🇸US_101
-      - LT_351
-      - US_967
-      - Relay_🇨🇳 CN-🇭🇰HK_81
-      - DE_126
-      - Relay_🇨🇳 CN-🇷🇺RU_85
-      - US_969
-      - Relay_🇨🇳 CN-🇷🇺RU_86
-      - US_767
-      - Relay_🇨🇳 CN-🇹🇼TW_97
-      - US_879
-      - Relay_🇨🇳 CN-🇷🇺RU_82
-      - Relay_🇨🇳CN-🇹🇼TW_119
-      - DE_141
-      - US_768
-      - Relay_🇨🇳 CN-🇷🇺RU_88
-      - US_794
-      - Relay_🇨🇳 CN-🇸🇬SG_90
-      - Relay_🇨🇳 CN-🇷🇺RU_95
-      - Relay_🇨🇳 CN-🇯🇵JP_87
-      - Relay_🇨🇳 CN-🇸🇬SG_81
-      - Relay_🇨🇳 CN-🇸🇬SG_83
-      - Relay_🇨🇳 CN-🇸🇬SG_91
-      - Relay_🇨🇳 CN-🇹🇼TW_99
-      - US_1401
-      - Relay_🇨🇳 CN-🇺🇸US_96
-      - HK_265
-      - NL_553
-      - Relay_🇨🇳 CN-🇷🇺RU_94
-      - Relay_🇨🇳 CN-🇺🇸US_73
-      - Relay_🇨🇳 CN-🇺🇸US_72
-      - Relay_🇫🇷 FR-🇫🇷FR_183
-      - Relay_🇨🇳 CN-🇺🇸US_74
-      - US_1031
-      - Relay_🇨🇳CN-🇭🇰HK_113
-      - US_1405
-      - Relay_🇨🇳 CN-🇺🇸US_84
-      - US_793
+      - Singapore | 04
+      - Singapore | 03
+      - Taiwan | 03
+      - Japan | 02
+      - Taiwan | 08
+      - Japan | 01
+      - Japan | 08
+      - Japan | 06
+      - Taiwan | 02
+      - Japan | 03
+      - Japan | 07
+      - Singapore | 07
+      - Japan | 04
+      - Japan | 05
+      - Singapore | 02
+      - Taiwan | 08 2
+      - Taiwan | 01
+      - Korea | 01
+      - United States | 06
+      - United States | 06 2
+      - United States | 03
+      - United States | 05
+      - United States | 08
+      - United States | 01
+      - United States | 07
+      - United States | 04
+      - United States | 02
+      - Japan | 08 2
+      - Canada | 01
+      - Vietnam | 01
+      - Japan | 01 2
+      - Japan | 04 2
+      - Japan | 03 2
+      - Taiwan | 05
+      - Taiwan | 06
+      - Hong Kong | 02
+      - Japan | 05 2
+      - Japan | 07 2
+      - Taiwan | 05 2
+      - Hong Kong | 05
+      - Taiwan | 01 2
+      - Taiwan | 02 2
+      - Singapore | 05
+      - Singapore | 02 2
+      - Vietnam | 01 2
+      - Hong Kong | 06
+      - Japan | 06 2
+      - Korea | 01 2
+      - United States | 01 2
+      - Singapore | 07 2
+      - United States | 07 2
+      - United States | 04 2
+      - Hong Kong | 03
+      - United States | 03 2
+      - United States | 08 2
+      - United States | 02 2
+      - United States | 05 2
+      - Taiwan | 06 2
+      - Hong Kong | 07
+      - Canada | 01 2
+      - Taiwan | 07
+      - India | 01
+      - Australia | 01
+      - United Kingdom | 01
+      - United Kingdom | 02
+      - Netherlands | 02
+      - Germany | 01
+      - Germany | 02
+      - United Kingdom | 01 2
+      - Netherlands | 01
+      - Turkey | 01
+      - Turkey | 01 2
+      - Chile | 01
+      - Japan | 02 2
+      - Chile | 01 2
+      - Argentina | 01
+      - Brazil | 01
+      - Singapore | 04 2
+      - Singapore | 08
+      - Germany | 02 2
+      - Brazil | 01 2
+      - Italy | 01
+      - Italy | 01 2
+      - Thailand | 01
+      - Netherlands | 02 2
+      - Argentina | 01 2
+      - Spain | 01
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
